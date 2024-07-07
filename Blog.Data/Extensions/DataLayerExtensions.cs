@@ -10,6 +10,8 @@ namespace Blog.Data.Extensions;
 
 public static class DataLayerExtensions
 {
+    //DI yapıyoruz IUnitOfWork diyince sen UnitOfWork anla ve ordan obje oluştur diyerek bağımlılığı azaltmaya çalışrız  soliD
+
     public static IServiceCollection RepositoryExtension(this IServiceCollection services,
         IConfiguration configuration)
     {
@@ -26,11 +28,11 @@ public static class DataLayerExtensions
         return services;
     }
 
-    //
-    public static IServiceCollection IUnitOfWorkExtension(this IServiceCollection services,
-        IConfiguration configuration)
+    //DI yapıyoruz IUnitOfWork diyince sen UnitOfWork anla ve ordan obje oluştur diyerek bağımlılığı azaltmaya çalışrız  soliD
+    public static IServiceCollection UnitOfWorkExtension(this IServiceCollection services)
     {
         services.AddScoped(typeof(IUnitOfWork), typeof(UnitOfWork));
         return services;
     }
+    
 }

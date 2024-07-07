@@ -1024,6 +1024,20 @@
         "runtime": {
           "bin/placeholder/Blog.Entity.dll": {}
         }
+      },
+      "Blog.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Blog.Data": "1.0.0",
+          "Blog.Entity": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Blog.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Blog.Service.dll": {}
+        }
       }
     }
   },
@@ -2609,11 +2623,17 @@
       "type": "project",
       "path": "../Blog.Entity/Blog.Entity.csproj",
       "msbuildProject": "../Blog.Entity/Blog.Entity.csproj"
+    },
+    "Blog.Service/1.0.0": {
+      "type": "project",
+      "path": "../Blog.Service/Blog.Service.csproj",
+      "msbuildProject": "../Blog.Service/Blog.Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
       "Blog.Data >= 1.0.0",
+      "Blog.Service >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.4"
     ]
   },
@@ -2644,6 +2664,9 @@
           "projectReferences": {
             "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Data/Blog.Data.csproj": {
               "projectPath": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Data/Blog.Data.csproj"
+            },
+            "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Service/Blog.Service.csproj": {
+              "projectPath": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Service/Blog.Service.csproj"
             }
           }
         }
@@ -2652,11 +2675,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {

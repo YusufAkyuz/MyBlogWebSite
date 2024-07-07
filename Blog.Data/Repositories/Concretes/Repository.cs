@@ -6,7 +6,8 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Blog.Data.Repositories.Concretes;
 
-public class Repository<T> : IRepository<T> where T : class, IEntityBase, new()
+//TODO : T nin bir class olması gerektiğini ve IEntityBaseden türemiş olması gerektiği bildirmemiz gerekiyor
+public class Repository<T> : IRepository<T> where T : class, IEntityBase, new()  
 {
     private readonly AppDbContext _dbContext;
 

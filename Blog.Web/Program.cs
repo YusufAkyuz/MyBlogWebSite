@@ -1,5 +1,6 @@
     using Blog.Data.Context;
     using Blog.Data.Extensions;
+    using Blog.Service.Extensions;
     using Microsoft.EntityFrameworkCore;
 
     var builder = WebApplication.CreateBuilder(args);
@@ -7,7 +8,8 @@
     builder.Services.AddControllersWithViews();
     builder.Services.DbContextExtension(builder.Configuration);
     builder.Services.RepositoryExtension(builder.Configuration);
-    builder.Services.IUnitOfWorkExtension(builder.Configuration);
+    builder.Services.UnitOfWorkExtension();
+    builder.Services.ArticleServiceExtension();
 
     var app = builder.Build();
 
