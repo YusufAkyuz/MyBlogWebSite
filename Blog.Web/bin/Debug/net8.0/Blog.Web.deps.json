@@ -9,8 +9,7 @@
       "Blog.Web/1.0.0": {
         "dependencies": {
           "Blog.Data": "1.0.0",
-          "Microsoft.EntityFrameworkCore.Design": "8.0.4",
-          "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.4"
+          "Microsoft.EntityFrameworkCore.Design": "8.0.4"
         },
         "runtime": {
           "Blog.Web.dll": {}
