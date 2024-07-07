@@ -245,6 +245,970 @@
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
     },
     {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/.browserslistrc",
+      "PackagePath": "staticwebassets/sneat/.browserslistrc"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/.eslintignore",
+      "PackagePath": "staticwebassets/sneat/.eslintignore"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/.eslintrc.json",
+      "PackagePath": "staticwebassets/sneat/.eslintrc.json"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/.gitignore",
+      "PackagePath": "staticwebassets/sneat/.gitignore"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/.prettierignore",
+      "PackagePath": "staticwebassets/sneat/.prettierignore"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/.prettierrc.json",
+      "PackagePath": "staticwebassets/sneat/.prettierrc.json"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/CHANGELOG.md",
+      "PackagePath": "staticwebassets/sneat/CHANGELOG.md"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/LICENSE.md",
+      "PackagePath": "staticwebassets/sneat/LICENSE.md"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/README.md",
+      "PackagePath": "staticwebassets/sneat/README.md"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/css/demo.css",
+      "PackagePath": "staticwebassets/sneat/assets/css/demo.css"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/avatars/1.png",
+      "PackagePath": "staticwebassets/sneat/assets/img/avatars/1.png"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/avatars/5.png",
+      "PackagePath": "staticwebassets/sneat/assets/img/avatars/5.png"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/avatars/6.png",
+      "PackagePath": "staticwebassets/sneat/assets/img/avatars/6.png"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/avatars/7.png",
+      "PackagePath": "staticwebassets/sneat/assets/img/avatars/7.png"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/backgrounds/18.jpg",
+      "PackagePath": "staticwebassets/sneat/assets/img/backgrounds/18.jpg"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/elements/1.jpg",
+      "PackagePath": "staticwebassets/sneat/assets/img/elements/1.jpg"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/elements/11.jpg",
+      "PackagePath": "staticwebassets/sneat/assets/img/elements/11.jpg"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/elements/12.jpg",
+      "PackagePath": "staticwebassets/sneat/assets/img/elements/12.jpg"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/elements/13.jpg",
+      "PackagePath": "staticwebassets/sneat/assets/img/elements/13.jpg"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/elements/17.jpg",
+      "PackagePath": "staticwebassets/sneat/assets/img/elements/17.jpg"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/elements/18.jpg",
+      "PackagePath": "staticwebassets/sneat/assets/img/elements/18.jpg"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/elements/19.jpg",
+      "PackagePath": "staticwebassets/sneat/assets/img/elements/19.jpg"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/elements/2.jpg",
+      "PackagePath": "staticwebassets/sneat/assets/img/elements/2.jpg"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/elements/20.jpg",
+      "PackagePath": "staticwebassets/sneat/assets/img/elements/20.jpg"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/elements/3.jpg",
+      "PackagePath": "staticwebassets/sneat/assets/img/elements/3.jpg"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/elements/4.jpg",
+      "PackagePath": "staticwebassets/sneat/assets/img/elements/4.jpg"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/elements/5.jpg",
+      "PackagePath": "staticwebassets/sneat/assets/img/elements/5.jpg"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/elements/7.jpg",
+      "PackagePath": "staticwebassets/sneat/assets/img/elements/7.jpg"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/favicon/favicon.ico",
+      "PackagePath": "staticwebassets/sneat/assets/img/favicon/favicon.ico"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/icons/brands/asana.png",
+      "PackagePath": "staticwebassets/sneat/assets/img/icons/brands/asana.png"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/icons/brands/behance.png",
+      "PackagePath": "staticwebassets/sneat/assets/img/icons/brands/behance.png"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/icons/brands/dribbble.png",
+      "PackagePath": "staticwebassets/sneat/assets/img/icons/brands/dribbble.png"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/icons/brands/facebook.png",
+      "PackagePath": "staticwebassets/sneat/assets/img/icons/brands/facebook.png"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/icons/brands/github.png",
+      "PackagePath": "staticwebassets/sneat/assets/img/icons/brands/github.png"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/icons/brands/google.png",
+      "PackagePath": "staticwebassets/sneat/assets/img/icons/brands/google.png"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/icons/brands/instagram.png",
+      "PackagePath": "staticwebassets/sneat/assets/img/icons/brands/instagram.png"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/icons/brands/mailchimp.png",
+      "PackagePath": "staticwebassets/sneat/assets/img/icons/brands/mailchimp.png"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/icons/brands/slack.png",
+      "PackagePath": "staticwebassets/sneat/assets/img/icons/brands/slack.png"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/icons/brands/twitter.png",
+      "PackagePath": "staticwebassets/sneat/assets/img/icons/brands/twitter.png"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/icons/unicons/cc-primary.png",
+      "PackagePath": "staticwebassets/sneat/assets/img/icons/unicons/cc-primary.png"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/icons/unicons/cc-success.png",
+      "PackagePath": "staticwebassets/sneat/assets/img/icons/unicons/cc-success.png"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/icons/unicons/cc-warning.png",
+      "PackagePath": "staticwebassets/sneat/assets/img/icons/unicons/cc-warning.png"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/icons/unicons/chart-success.png",
+      "PackagePath": "staticwebassets/sneat/assets/img/icons/unicons/chart-success.png"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/icons/unicons/chart.png",
+      "PackagePath": "staticwebassets/sneat/assets/img/icons/unicons/chart.png"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/icons/unicons/paypal.png",
+      "PackagePath": "staticwebassets/sneat/assets/img/icons/unicons/paypal.png"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/icons/unicons/wallet-info.png",
+      "PackagePath": "staticwebassets/sneat/assets/img/icons/unicons/wallet-info.png"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/icons/unicons/wallet.png",
+      "PackagePath": "staticwebassets/sneat/assets/img/icons/unicons/wallet.png"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/illustrations/girl-doing-yoga-light.png",
+      "PackagePath": "staticwebassets/sneat/assets/img/illustrations/girl-doing-yoga-light.png"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/illustrations/man-with-laptop-light.png",
+      "PackagePath": "staticwebassets/sneat/assets/img/illustrations/man-with-laptop-light.png"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/illustrations/page-misc-error-light.png",
+      "PackagePath": "staticwebassets/sneat/assets/img/illustrations/page-misc-error-light.png"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/layouts/layout-container-light.png",
+      "PackagePath": "staticwebassets/sneat/assets/img/layouts/layout-container-light.png"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/layouts/layout-fluid-light.png",
+      "PackagePath": "staticwebassets/sneat/assets/img/layouts/layout-fluid-light.png"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/layouts/layout-without-menu-light.png",
+      "PackagePath": "staticwebassets/sneat/assets/img/layouts/layout-without-menu-light.png"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/layouts/layout-without-navbar-light.png",
+      "PackagePath": "staticwebassets/sneat/assets/img/layouts/layout-without-navbar-light.png"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/js/config.js",
+      "PackagePath": "staticwebassets/sneat/assets/js/config.js"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/js/dashboards-analytics.js",
+      "PackagePath": "staticwebassets/sneat/assets/js/dashboards-analytics.js"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/js/extended-ui-perfect-scrollbar.js",
+      "PackagePath": "staticwebassets/sneat/assets/js/extended-ui-perfect-scrollbar.js"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/js/form-basic-inputs.js",
+      "PackagePath": "staticwebassets/sneat/assets/js/form-basic-inputs.js"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/js/main.js",
+      "PackagePath": "staticwebassets/sneat/assets/js/main.js"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/js/pages-account-settings-account.js",
+      "PackagePath": "staticwebassets/sneat/assets/js/pages-account-settings-account.js"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/js/ui-modals.js",
+      "PackagePath": "staticwebassets/sneat/assets/js/ui-modals.js"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/js/ui-popover.js",
+      "PackagePath": "staticwebassets/sneat/assets/js/ui-popover.js"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/js/ui-toasts.js",
+      "PackagePath": "staticwebassets/sneat/assets/js/ui-toasts.js"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/vendor/css/core.css",
+      "PackagePath": "staticwebassets/sneat/assets/vendor/css/core.css"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/vendor/css/pages/page-account-settings.css",
+      "PackagePath": "staticwebassets/sneat/assets/vendor/css/pages/page-account-settings.css"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/vendor/css/pages/page-auth.css",
+      "PackagePath": "staticwebassets/sneat/assets/vendor/css/pages/page-auth.css"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/vendor/css/pages/page-icons.css",
+      "PackagePath": "staticwebassets/sneat/assets/vendor/css/pages/page-icons.css"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/vendor/css/pages/page-misc.css",
+      "PackagePath": "staticwebassets/sneat/assets/vendor/css/pages/page-misc.css"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/vendor/css/theme-default.css",
+      "PackagePath": "staticwebassets/sneat/assets/vendor/css/theme-default.css"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/vendor/fonts/boxicons.css",
+      "PackagePath": "staticwebassets/sneat/assets/vendor/fonts/boxicons.css"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/vendor/fonts/boxicons/boxicons.eot",
+      "PackagePath": "staticwebassets/sneat/assets/vendor/fonts/boxicons/boxicons.eot"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/vendor/fonts/boxicons/boxicons.svg",
+      "PackagePath": "staticwebassets/sneat/assets/vendor/fonts/boxicons/boxicons.svg"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/vendor/fonts/boxicons/boxicons.ttf",
+      "PackagePath": "staticwebassets/sneat/assets/vendor/fonts/boxicons/boxicons.ttf"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/vendor/fonts/boxicons/boxicons.woff",
+      "PackagePath": "staticwebassets/sneat/assets/vendor/fonts/boxicons/boxicons.woff"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/vendor/fonts/boxicons/boxicons.woff2",
+      "PackagePath": "staticwebassets/sneat/assets/vendor/fonts/boxicons/boxicons.woff2"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/vendor/js/bootstrap.js",
+      "PackagePath": "staticwebassets/sneat/assets/vendor/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/vendor/js/helpers.js",
+      "PackagePath": "staticwebassets/sneat/assets/vendor/js/helpers.js"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/vendor/js/menu.js",
+      "PackagePath": "staticwebassets/sneat/assets/vendor/js/menu.js"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/vendor/libs/apex-charts/apex-charts.css",
+      "PackagePath": "staticwebassets/sneat/assets/vendor/libs/apex-charts/apex-charts.css"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/vendor/libs/apex-charts/apexcharts.js",
+      "PackagePath": "staticwebassets/sneat/assets/vendor/libs/apex-charts/apexcharts.js"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/vendor/libs/highlight/highlight-github.css",
+      "PackagePath": "staticwebassets/sneat/assets/vendor/libs/highlight/highlight-github.css"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/vendor/libs/highlight/highlight.css",
+      "PackagePath": "staticwebassets/sneat/assets/vendor/libs/highlight/highlight.css"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/vendor/libs/highlight/highlight.js",
+      "PackagePath": "staticwebassets/sneat/assets/vendor/libs/highlight/highlight.js"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/vendor/libs/jquery/jquery.js",
+      "PackagePath": "staticwebassets/sneat/assets/vendor/libs/jquery/jquery.js"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/vendor/libs/masonry/masonry.js",
+      "PackagePath": "staticwebassets/sneat/assets/vendor/libs/masonry/masonry.js"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css",
+      "PackagePath": "staticwebassets/sneat/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js",
+      "PackagePath": "staticwebassets/sneat/assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/vendor/libs/popper/popper.js",
+      "PackagePath": "staticwebassets/sneat/assets/vendor/libs/popper/popper.js"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/build-config.js",
+      "PackagePath": "staticwebassets/sneat/build-config.js"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/documentation.html",
+      "PackagePath": "staticwebassets/sneat/documentation.html"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/fonts/boxicons.scss",
+      "PackagePath": "staticwebassets/sneat/fonts/boxicons.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/gulpfile.js",
+      "PackagePath": "staticwebassets/sneat/gulpfile.js"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/html/auth-forgot-password-basic.html",
+      "PackagePath": "staticwebassets/sneat/html/auth-forgot-password-basic.html"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/html/auth-login-basic.html",
+      "PackagePath": "staticwebassets/sneat/html/auth-login-basic.html"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/html/auth-register-basic.html",
+      "PackagePath": "staticwebassets/sneat/html/auth-register-basic.html"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/html/cards-basic.html",
+      "PackagePath": "staticwebassets/sneat/html/cards-basic.html"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/html/extended-ui-perfect-scrollbar.html",
+      "PackagePath": "staticwebassets/sneat/html/extended-ui-perfect-scrollbar.html"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/html/extended-ui-text-divider.html",
+      "PackagePath": "staticwebassets/sneat/html/extended-ui-text-divider.html"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/html/form-layouts-horizontal.html",
+      "PackagePath": "staticwebassets/sneat/html/form-layouts-horizontal.html"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/html/form-layouts-vertical.html",
+      "PackagePath": "staticwebassets/sneat/html/form-layouts-vertical.html"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/html/forms-basic-inputs.html",
+      "PackagePath": "staticwebassets/sneat/html/forms-basic-inputs.html"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/html/forms-input-groups.html",
+      "PackagePath": "staticwebassets/sneat/html/forms-input-groups.html"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/html/icons-boxicons.html",
+      "PackagePath": "staticwebassets/sneat/html/icons-boxicons.html"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/html/index.html",
+      "PackagePath": "staticwebassets/sneat/html/index.html"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/html/layouts-blank.html",
+      "PackagePath": "staticwebassets/sneat/html/layouts-blank.html"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/html/layouts-container.html",
+      "PackagePath": "staticwebassets/sneat/html/layouts-container.html"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/html/layouts-fluid.html",
+      "PackagePath": "staticwebassets/sneat/html/layouts-fluid.html"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/html/layouts-without-menu.html",
+      "PackagePath": "staticwebassets/sneat/html/layouts-without-menu.html"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/html/layouts-without-navbar.html",
+      "PackagePath": "staticwebassets/sneat/html/layouts-without-navbar.html"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/html/pages-account-settings-account.html",
+      "PackagePath": "staticwebassets/sneat/html/pages-account-settings-account.html"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/html/pages-account-settings-connections.html",
+      "PackagePath": "staticwebassets/sneat/html/pages-account-settings-connections.html"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/html/pages-account-settings-notifications.html",
+      "PackagePath": "staticwebassets/sneat/html/pages-account-settings-notifications.html"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/html/pages-misc-error.html",
+      "PackagePath": "staticwebassets/sneat/html/pages-misc-error.html"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/html/pages-misc-under-maintenance.html",
+      "PackagePath": "staticwebassets/sneat/html/pages-misc-under-maintenance.html"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/html/tables-basic.html",
+      "PackagePath": "staticwebassets/sneat/html/tables-basic.html"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/html/ui-accordion.html",
+      "PackagePath": "staticwebassets/sneat/html/ui-accordion.html"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/html/ui-alerts.html",
+      "PackagePath": "staticwebassets/sneat/html/ui-alerts.html"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/html/ui-badges.html",
+      "PackagePath": "staticwebassets/sneat/html/ui-badges.html"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/html/ui-buttons.html",
+      "PackagePath": "staticwebassets/sneat/html/ui-buttons.html"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/html/ui-carousel.html",
+      "PackagePath": "staticwebassets/sneat/html/ui-carousel.html"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/html/ui-collapse.html",
+      "PackagePath": "staticwebassets/sneat/html/ui-collapse.html"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/html/ui-dropdowns.html",
+      "PackagePath": "staticwebassets/sneat/html/ui-dropdowns.html"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/html/ui-footer.html",
+      "PackagePath": "staticwebassets/sneat/html/ui-footer.html"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/html/ui-list-groups.html",
+      "PackagePath": "staticwebassets/sneat/html/ui-list-groups.html"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/html/ui-modals.html",
+      "PackagePath": "staticwebassets/sneat/html/ui-modals.html"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/html/ui-navbar.html",
+      "PackagePath": "staticwebassets/sneat/html/ui-navbar.html"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/html/ui-offcanvas.html",
+      "PackagePath": "staticwebassets/sneat/html/ui-offcanvas.html"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/html/ui-pagination-breadcrumbs.html",
+      "PackagePath": "staticwebassets/sneat/html/ui-pagination-breadcrumbs.html"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/html/ui-progress.html",
+      "PackagePath": "staticwebassets/sneat/html/ui-progress.html"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/html/ui-spinners.html",
+      "PackagePath": "staticwebassets/sneat/html/ui-spinners.html"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/html/ui-tabs-pills.html",
+      "PackagePath": "staticwebassets/sneat/html/ui-tabs-pills.html"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/html/ui-toasts.html",
+      "PackagePath": "staticwebassets/sneat/html/ui-toasts.html"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/html/ui-tooltips-popovers.html",
+      "PackagePath": "staticwebassets/sneat/html/ui-tooltips-popovers.html"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/html/ui-typography.html",
+      "PackagePath": "staticwebassets/sneat/html/ui-typography.html"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/index.html",
+      "PackagePath": "staticwebassets/sneat/index.html"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/js/bootstrap.js",
+      "PackagePath": "staticwebassets/sneat/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/js/helpers.js",
+      "PackagePath": "staticwebassets/sneat/js/helpers.js"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/js/menu.js",
+      "PackagePath": "staticwebassets/sneat/js/menu.js"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/libs/apex-charts/apex-charts.scss",
+      "PackagePath": "staticwebassets/sneat/libs/apex-charts/apex-charts.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/libs/apex-charts/apexcharts.js",
+      "PackagePath": "staticwebassets/sneat/libs/apex-charts/apexcharts.js"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/libs/highlight/highlight-github.scss",
+      "PackagePath": "staticwebassets/sneat/libs/highlight/highlight-github.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/libs/highlight/highlight.js",
+      "PackagePath": "staticwebassets/sneat/libs/highlight/highlight.js"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/libs/highlight/highlight.scss",
+      "PackagePath": "staticwebassets/sneat/libs/highlight/highlight.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/libs/jquery/jquery.js",
+      "PackagePath": "staticwebassets/sneat/libs/jquery/jquery.js"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/libs/masonry/masonry.js",
+      "PackagePath": "staticwebassets/sneat/libs/masonry/masonry.js"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/libs/perfect-scrollbar/perfect-scrollbar.js",
+      "PackagePath": "staticwebassets/sneat/libs/perfect-scrollbar/perfect-scrollbar.js"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/libs/perfect-scrollbar/perfect-scrollbar.scss",
+      "PackagePath": "staticwebassets/sneat/libs/perfect-scrollbar/perfect-scrollbar.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/libs/popper/popper.js",
+      "PackagePath": "staticwebassets/sneat/libs/popper/popper.js"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/package-lock.json",
+      "PackagePath": "staticwebassets/sneat/package-lock.json"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/package.json",
+      "PackagePath": "staticwebassets/sneat/package.json"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_bootstrap-extended.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_bootstrap-extended.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_bootstrap-extended/_accordion.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_bootstrap-extended/_accordion.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_bootstrap-extended/_alert.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_bootstrap-extended/_alert.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_bootstrap-extended/_badge.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_bootstrap-extended/_badge.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_bootstrap-extended/_breadcrumb.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_bootstrap-extended/_breadcrumb.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_bootstrap-extended/_button-group.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_bootstrap-extended/_button-group.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_bootstrap-extended/_buttons.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_bootstrap-extended/_buttons.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_bootstrap-extended/_card.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_bootstrap-extended/_card.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_bootstrap-extended/_carousel.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_bootstrap-extended/_carousel.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_bootstrap-extended/_close.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_bootstrap-extended/_close.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_bootstrap-extended/_dropdown.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_bootstrap-extended/_dropdown.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_bootstrap-extended/_forms.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_bootstrap-extended/_forms.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_bootstrap-extended/_functions.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_bootstrap-extended/_functions.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_bootstrap-extended/_include.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_bootstrap-extended/_include.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_bootstrap-extended/_list-group.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_bootstrap-extended/_list-group.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_bootstrap-extended/_mixins.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_bootstrap-extended/_mixins.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_bootstrap-extended/_modal.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_bootstrap-extended/_modal.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_bootstrap-extended/_nav.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_bootstrap-extended/_nav.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_bootstrap-extended/_navbar.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_bootstrap-extended/_navbar.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_bootstrap-extended/_offcanvas.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_bootstrap-extended/_offcanvas.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_bootstrap-extended/_pagination.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_bootstrap-extended/_pagination.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_bootstrap-extended/_popover.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_bootstrap-extended/_popover.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_bootstrap-extended/_progress.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_bootstrap-extended/_progress.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_bootstrap-extended/_reboot.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_bootstrap-extended/_reboot.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_bootstrap-extended/_root.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_bootstrap-extended/_root.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_bootstrap-extended/_spinners.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_bootstrap-extended/_spinners.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_bootstrap-extended/_tables.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_bootstrap-extended/_tables.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_bootstrap-extended/_toasts.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_bootstrap-extended/_toasts.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_bootstrap-extended/_tooltip.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_bootstrap-extended/_tooltip.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_bootstrap-extended/_type.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_bootstrap-extended/_type.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_bootstrap-extended/_utilities-ltr.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_bootstrap-extended/_utilities-ltr.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_bootstrap-extended/_utilities.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_bootstrap-extended/_utilities.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_bootstrap-extended/_variables.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_bootstrap-extended/_variables.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_bootstrap-extended/forms/_floating-labels.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_bootstrap-extended/forms/_floating-labels.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_bootstrap-extended/forms/_form-control.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_bootstrap-extended/forms/_form-control.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_bootstrap-extended/forms/_form-range.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_bootstrap-extended/forms/_form-range.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_bootstrap-extended/forms/_form-select.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_bootstrap-extended/forms/_form-select.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_bootstrap-extended/forms/_input-group.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_bootstrap-extended/forms/_input-group.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_bootstrap-extended/forms/_labels.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_bootstrap-extended/forms/_labels.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_bootstrap-extended/forms/_validation.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_bootstrap-extended/forms/_validation.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_bootstrap-extended/mixins/_alert.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_bootstrap-extended/mixins/_alert.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_bootstrap-extended/mixins/_badge.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_bootstrap-extended/mixins/_badge.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_bootstrap-extended/mixins/_buttons.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_bootstrap-extended/mixins/_buttons.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_bootstrap-extended/mixins/_caret.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_bootstrap-extended/mixins/_caret.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_bootstrap-extended/mixins/_dropdown.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_bootstrap-extended/mixins/_dropdown.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_bootstrap-extended/mixins/_forms.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_bootstrap-extended/mixins/_forms.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_bootstrap-extended/mixins/_list-group.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_bootstrap-extended/mixins/_list-group.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_bootstrap-extended/mixins/_misc.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_bootstrap-extended/mixins/_misc.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_bootstrap-extended/mixins/_navs.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_bootstrap-extended/mixins/_navs.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_bootstrap-extended/mixins/_pagination.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_bootstrap-extended/mixins/_pagination.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_bootstrap-extended/mixins/_progress.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_bootstrap-extended/mixins/_progress.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_bootstrap-extended/mixins/_table-variants.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_bootstrap-extended/mixins/_table-variants.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_bootstrap-extended/mixins/_toasts.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_bootstrap-extended/mixins/_toasts.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_bootstrap.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_bootstrap.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_colors.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_colors.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_components.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_components.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_components/_app-brand.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_components/_app-brand.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_components/_avatar.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_components/_avatar.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_components/_base.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_components/_base.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_components/_common.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_components/_common.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_components/_footer.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_components/_footer.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_components/_include.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_components/_include.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_components/_layout.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_components/_layout.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_components/_menu.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_components/_menu.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_components/_mixins.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_components/_mixins.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_components/_text-divider.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_components/_text-divider.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_components/_variables.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_components/_variables.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_components/mixins/_app-brand.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_components/mixins/_app-brand.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_components/mixins/_avatar.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_components/mixins/_avatar.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_components/mixins/_footer.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_components/mixins/_footer.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_components/mixins/_menu.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_components/mixins/_menu.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_components/mixins/_misc.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_components/mixins/_misc.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_components/mixins/_navbar.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_components/mixins/_navbar.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_components/mixins/_text-divider.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_components/mixins/_text-divider.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_custom-variables/_bootstrap-extended.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_custom-variables/_bootstrap-extended.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_custom-variables/_components.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_custom-variables/_components.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_custom-variables/_libs.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_custom-variables/_libs.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_custom-variables/_pages.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_custom-variables/_pages.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_custom-variables/_support.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_custom-variables/_support.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_theme/_common.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_theme/_common.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/_theme/_theme.scss",
+      "PackagePath": "staticwebassets/sneat/scss/_theme/_theme.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/core.scss",
+      "PackagePath": "staticwebassets/sneat/scss/core.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/pages/page-account-settings.scss",
+      "PackagePath": "staticwebassets/sneat/scss/pages/page-account-settings.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/pages/page-auth.scss",
+      "PackagePath": "staticwebassets/sneat/scss/pages/page-auth.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/pages/page-icons.scss",
+      "PackagePath": "staticwebassets/sneat/scss/pages/page-icons.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/pages/page-misc.scss",
+      "PackagePath": "staticwebassets/sneat/scss/pages/page-misc.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/scss/theme-default.scss",
+      "PackagePath": "staticwebassets/sneat/scss/theme-default.scss"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/tasks/build.js",
+      "PackagePath": "staticwebassets/sneat/tasks/build.js"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/tasks/prod.js",
+      "PackagePath": "staticwebassets/sneat/tasks/prod.js"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/webpack.config.js",
+      "PackagePath": "staticwebassets/sneat/webpack.config.js"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/yarn.lock",
+      "PackagePath": "staticwebassets/sneat/yarn.lock"
+    },
+    {
       "Id": "obj/Debug/net8.0/staticwebassets/msbuild.Blog.Web.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

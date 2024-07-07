@@ -542,3 +542,4 @@
 /Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/bin/Debug/net8.0/Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
 /Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/bin/Debug/net8.0/Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
 /Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/obj/Debug/net8.0/Blog.Web.MvcApplicationPartsAssemblyInfo.cs
+/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/bin/Debug/net8.0/AutoMapper.dll

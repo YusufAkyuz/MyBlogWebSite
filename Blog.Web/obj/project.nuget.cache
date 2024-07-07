@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "swPZEFIOFnznVMpNFXlQdt8s8U90O0wDCMY3GC5UTuFS7JNW/MLakMwY/uS9a04dEN70/Do0yQqEgIHwi1Tp/g==",
+  "dgSpecHash": "mbU5bqK3EPfYC0IJ0zgzF9kmqbp7Gk1J+nNwpUR/EIatEJLhvoZNh9yv//vABq9p7PcZXYZTK9/eJeUlFALTqg==",
   "success": true,
   "projectFilePath": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/Blog.Web.csproj",
   "expectedPackageFiles": [
+    "/Users/yusufakyuz/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
     "/Users/yusufakyuz/.nuget/packages/humanizer/2.14.1/humanizer.2.14.1.nupkg.sha512",
     "/Users/yusufakyuz/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/yusufakyuz/.nuget/packages/humanizer.core.af/2.14.1/humanizer.core.af.2.14.1.nupkg.sha512",

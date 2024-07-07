@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "XPQNkNyewgy8zSBB+mUmnRU8VBIM8WIKU0PHm6siil15coOQxnL3IkwaOlyMfGE7WwaX/25gv7mDrOZgv4nBeQ==",
+  "dgSpecHash": "chETMQ/zeiEf78UX2OpTNiLi1k2FGXpvGfyuqiPgMXYAU/G1fwEcfD5yQ2rqSzBvTwBXvmcKNfmsxGaaoZ0JsA==",
   "success": true,
   "projectFilePath": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Service/Blog.Service.csproj",
   "expectedPackageFiles": [
+    "/Users/yusufakyuz/.nuget/packages/automapper/13.0.1/automapper.13.0.1.nupkg.sha512",
     "/Users/yusufakyuz/.nuget/packages/microsoft.entityframeworkcore/8.0.4/microsoft.entityframeworkcore.8.0.4.nupkg.sha512",
     "/Users/yusufakyuz/.nuget/packages/microsoft.entityframeworkcore.abstractions/8.0.4/microsoft.entityframeworkcore.abstractions.8.0.4.nupkg.sha512",
     "/Users/yusufakyuz/.nuget/packages/microsoft.entityframeworkcore.analyzers/8.0.4/microsoft.entityframeworkcore.analyzers.8.0.4.nupkg.sha512",
