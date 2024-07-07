@@ -1,0 +1,10 @@
+﻿@model List<Article>
+<h1 style="color: red">Admin Page Sayfasındasınız</h1>
+@foreach (var article in Model)
+{
+    <h1>@article.Title</h1> 
+    <br/> 
+    <h3>@article.Content</h3> 
+    <br/> 
+    <h5>@article.CreatedDate</h5> <br/>
+}

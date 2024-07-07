@@ -1,7 +1,6 @@
-    using Blog.Data.Context;
     using Blog.Data.Extensions;
     using Blog.Service.Extensions;
-    using Microsoft.EntityFrameworkCore;
+
 
     var builder = WebApplication.CreateBuilder(args);
 
@@ -10,6 +9,7 @@
     builder.Services.RepositoryExtension(builder.Configuration);
     builder.Services.UnitOfWorkExtension();
     builder.Services.ArticleServiceExtension();
+    builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
 
     var app = builder.Build();
 
@@ -27,7 +27,11 @@
     app.UseAuthorization();
 
     app.MapControllerRoute(
-        name: "default",
-        pattern: "{controller=Home}/{action=Index}/{id?}");
+        name: "Admin",
+        pattern: "Admin/{controller=Home}/{action=Index}/{id?}",
+        defaults: new { area = "Admin" }
+    );
+
+    app.MapDefaultControllerRoute();
 
     app.Run();
