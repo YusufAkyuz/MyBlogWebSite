@@ -10,10 +10,14 @@
     {
         public static IServiceCollection ArticleServiceExtension(this IServiceCollection services)
         {
-            var assembly = Assembly.GetExecutingAssembly();
-            
             services.AddScoped(typeof(IArticleService), typeof(ArticleService));
 
+            return services;
+        }
+
+        public static IServiceCollection ArticleDtoExtensions(this IServiceCollection services)
+        {
+            var assembly = Assembly.GetExecutingAssembly();
             services.AddAutoMapper(assembly);
             return services;
         }

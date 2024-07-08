@@ -8,6 +8,6 @@ public class ArticleProfile : Profile
 {
     public ArticleProfile()
     {
-        CreateMap<ArticleDto, Article>().ReverseMap();
+        CreateMap<ArticleDto, Article>().ReverseMap();  //Burdaki reverse metodu sayesinde mapleme işleminin tam terside geçerli
     }
 }

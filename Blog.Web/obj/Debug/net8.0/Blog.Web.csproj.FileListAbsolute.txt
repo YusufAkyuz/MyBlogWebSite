@@ -256,8 +256,6 @@
 /Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/bin/Debug/net8.0/refs/Microsoft.AspNetCore.Connections.Abstractions.dll
 /Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/bin/Debug/net8.0/refs/Microsoft.AspNetCore.CookiePolicy.dll
 /Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/bin/Debug/net8.0/refs/Microsoft.AspNetCore.Cors.dll
-/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/bin/Debug/net8.0/refs/Microsoft.AspNetCore.Cryptography.Internal.dll
-/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/bin/Debug/net8.0/refs/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
 /Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/bin/Debug/net8.0/refs/Microsoft.AspNetCore.DataProtection.Abstractions.dll
 /Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/bin/Debug/net8.0/refs/Microsoft.AspNetCore.DataProtection.dll
 /Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/bin/Debug/net8.0/refs/Microsoft.AspNetCore.DataProtection.Extensions.dll
@@ -353,8 +351,6 @@
 /Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/bin/Debug/net8.0/refs/Microsoft.Extensions.Hosting.Abstractions.dll
 /Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/bin/Debug/net8.0/refs/Microsoft.Extensions.Hosting.dll
 /Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/bin/Debug/net8.0/refs/Microsoft.Extensions.Http.dll
-/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/bin/Debug/net8.0/refs/Microsoft.Extensions.Identity.Core.dll
-/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/bin/Debug/net8.0/refs/Microsoft.Extensions.Identity.Stores.dll
 /Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/bin/Debug/net8.0/refs/Microsoft.Extensions.Localization.Abstractions.dll
 /Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/bin/Debug/net8.0/refs/Microsoft.Extensions.Localization.dll
 /Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/bin/Debug/net8.0/refs/Microsoft.Extensions.Logging.Abstractions.dll
@@ -543,3 +539,9 @@
 /Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/bin/Debug/net8.0/Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
 /Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/obj/Debug/net8.0/Blog.Web.MvcApplicationPartsAssemblyInfo.cs
 /Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/bin/Debug/net8.0/AutoMapper.dll
+/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/bin/Debug/net8.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/bin/Debug/net8.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/bin/Debug/net8.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/bin/Debug/net8.0/Microsoft.Extensions.Identity.Core.dll
+/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/bin/Debug/net8.0/Microsoft.Extensions.Identity.Stores.dll
+/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/bin/Debug/net8.0/Microsoft.Extensions.Options.dll

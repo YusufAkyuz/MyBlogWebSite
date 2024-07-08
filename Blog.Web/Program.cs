@@ -10,6 +10,7 @@
     builder.Services.UnitOfWorkExtension();
     builder.Services.ArticleServiceExtension();
     builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
+    builder.Services.ArticleDtoExtensions();
 
     var app = builder.Build();
 
