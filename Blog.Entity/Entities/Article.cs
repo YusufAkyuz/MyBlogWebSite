@@ -9,6 +9,10 @@ public class Article : EntityBase
     public int ViewCount { get; set; }
     public Guid CategoryId { get; set; }
     public Category Category { get; set; }
-    public Guid ImageId { get; set; }
+    public Guid? ImageId { get; set; }
     public Image Image { get; set; }
+    
+    //Relation işlemlerini gerçkleşitirecez
+    public Guid UserId { get; set; }
+    public AppUser User { get; set; }
 }

@@ -15,7 +15,8 @@ public class ImageMap : IEntityTypeConfiguration<Image>
             FileType = "jpg",
             CreatedBy = "Admin Test",
             CreatedDate = DateTime.UtcNow,
-            IsDeleted = false
+            IsDeleted = false,
+            
         },
             new Image()
             {
