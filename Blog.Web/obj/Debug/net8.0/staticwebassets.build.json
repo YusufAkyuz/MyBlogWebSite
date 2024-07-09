@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "EUw8e3URAIJrfrk1WC2SbV/i7VvCafngCHbzHP7peu8=",
+  "Hash": "39FUBBkRcz4jaBJV42fXqBuu9PRw+XNZxBPiMXtDpPg=",
   "Source": "Blog.Web",
   "BasePath": "_content/Blog.Web",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/js/articleIndex.js",
+      "SourceId": "Blog.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/",
+      "BasePath": "_content/Blog.Web",
+      "RelativePath": "js/articleIndex.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/articleIndex.js"
     },
     {
       "Identity": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/js/site.js",

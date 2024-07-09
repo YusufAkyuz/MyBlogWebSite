@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/js/articleIndex.js",
+      "PackagePath": "staticwebassets/js/articleIndex.js"
+    },
+    {
       "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },

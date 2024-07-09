@@ -32,7 +32,7 @@
         config.LogoutPath = new PathString("/Admin/Auth/Logout");
         config.Cookie = new CookieBuilder()
         {
-            Name = "Yusuf Akyüz Blog Site",
+            Name = "Yusuf_Akyuz_Blog_Site",
             HttpOnly = true,
             SameSite = SameSiteMode.Strict,
             SecurePolicy = CookieSecurePolicy.SameAsRequest

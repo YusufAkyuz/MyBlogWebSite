@@ -26,6 +26,18 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = /Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web
 build_property._RazorSourceGeneratorDebug = 
 
+[/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/Areas/Admin/Views/Article/Add.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQXJ0aWNsZS9BZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/Areas/Admin/Views/Article/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQXJ0aWNsZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/Areas/Admin/Views/Auth/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvQXV0aC9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/Areas/Admin/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

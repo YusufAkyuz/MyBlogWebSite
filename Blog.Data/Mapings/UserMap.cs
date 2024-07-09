@@ -47,9 +47,9 @@ public class UserMap : IEntityTypeConfiguration<AppUser>
         {
             Id = Guid.Parse("C1E1C41C-2F28-436A-9FC7-3EAA4567C792"),
             UserName = "superadmin@gmail.com",
-            NormalizedUserName = "superadmin@gmail.com".ToUpper(),
+            NormalizedUserName = "SUPERADMIN@GMAIL.COM",
             Email = "superadmin@gmail.com",
-            NormalizedEmail = "superadmin@gmail.com".ToUpper(),
+            NormalizedEmail = "SUPERADMIN@GMAIL.COM",
             PhoneNumber = "+903829481902830",
             FirstName = "Super Admin",
             LastName = "Akyüz",
@@ -65,16 +65,16 @@ public class UserMap : IEntityTypeConfiguration<AppUser>
         {
             Id = Guid.Parse("6EEE8F25-7132-4211-A212-0CF4E83900F7"),
             UserName = "normaluser@gmail.com",
-            NormalizedUserName = "normaluser@gmail.com".ToUpper(),
+            NormalizedUserName = "NORMALUSER@GMAIL.COM",
             Email = "normaluser@gmail.com",
-            NormalizedEmail = "normaluser@gmail.com".ToUpper(),
+            NormalizedEmail = "NORMALUSER@GMAIL.COM",
             PhoneNumber = "+9053728293938",
             FirstName = "Normal User",
             LastName = "Akyüz",
             PhoneNumberConfirmed = true,
             EmailConfirmed = true,
             SecurityStamp = Guid.NewGuid().ToString(),
-            ImageId = Guid.Parse("F02F448C-6B36-4C2A-ADA7-7218CE5DBDC9")
+            ImageId = Guid.Parse("F02F448C-6B36-4C2A-ADA7-7218CE5DBDC9"),
         };
         NormalUser.PasswordHash = CreatePasswordHash(NormalUser, "111111");
 
@@ -82,9 +82,9 @@ public class UserMap : IEntityTypeConfiguration<AppUser>
         {
             Id = Guid.Parse("10560B88-983E-4D8F-8D55-803D7A1AD87E"),
             UserName = "admin@gmail.com",
-            NormalizedUserName = "admin@gmail.com".ToUpper(),
+            NormalizedUserName = "ADMIN@GMAIL.com",
             Email = "admin@gmail.com",
-            NormalizedEmail = "admin@gmail.com".ToUpper(),
+            NormalizedEmail = "ADMIN@GMAIL.com",
             PhoneNumber = "+90219837912742",
             FirstName = "Admin User",
             LastName = "Akyüz",

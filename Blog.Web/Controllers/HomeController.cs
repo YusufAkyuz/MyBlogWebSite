@@ -18,7 +18,7 @@ public class HomeController : Controller
 
     public async Task<IActionResult> Index()
     {
-        var articles = await _articlecleService.GetAllArticleAsync();
+        var articles = await _articlecleService.GetAllArticleWithCategoryNonDeletedAsync();
         return View(articles);
     }
 
