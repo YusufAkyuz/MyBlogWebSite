@@ -15,6 +15,7 @@
     builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
     builder.Services.ArticleDtoExtension();
     builder.Services.CategoryDtoExtension();
+    builder.Services.ArticleValidatorExtension();
 
     builder.Services.AddSession();
     builder.Services.AddIdentity<AppUser, AppRole>(options =>

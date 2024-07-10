@@ -545,3 +545,6 @@
 /Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/bin/Debug/net8.0/Microsoft.Extensions.Identity.Core.dll
 /Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/bin/Debug/net8.0/Microsoft.Extensions.Identity.Stores.dll
 /Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/bin/Debug/net8.0/Microsoft.Extensions.Options.dll
+/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/bin/Debug/net8.0/FluentValidation.dll
+/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/bin/Debug/net8.0/FluentValidation.AspNetCore.dll
+/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/bin/Debug/net8.0/FluentValidation.DependencyInjectionExtensions.dll

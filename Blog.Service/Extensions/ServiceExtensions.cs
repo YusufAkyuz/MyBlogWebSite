@@ -1,8 +1,12 @@
+    using System.Globalization;
     using System.Reflection;
     using Blog.Entity.DTOs.Categories;
     using Blog.Service.AutoMapper;
+    using Blog.Service.FluentValidations;
     using Blog.Service.Services.Concretes;
     using Blog.Service.Services.Contracts;
+    using FluentValidation;
+    using FluentValidation.AspNetCore;
     using Microsoft.Extensions.DependencyInjection;
 
     namespace Blog.Service.Extensions;
@@ -29,5 +33,16 @@
             return services;
         }
 
+        public static IServiceCollection ArticleValidatorExtension(this IServiceCollection services)
+        {
+            services.AddControllersWithViews().AddFluentValidation(options =>
+            {
+                options.RegisterValidatorsFromAssemblyContaining<ArticleValidator>();
+                options.DisableDataAnnotationsValidation = true;
+                options.ValidatorOptions.LanguageManager.Culture = new CultureInfo("tr");
+            });
+        
+            return services;
+        }
         
     }
