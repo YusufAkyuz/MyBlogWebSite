@@ -13,7 +13,8 @@
     builder.Services.UnitOfWorkExtension();
     builder.Services.ArticleServiceExtension();
     builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
-    builder.Services.ArticleDtoExtensions();
+    builder.Services.ArticleDtoExtension();
+    builder.Services.CategoryDtoExtension();
 
     builder.Services.AddSession();
     builder.Services.AddIdentity<AppUser, AppRole>(options =>

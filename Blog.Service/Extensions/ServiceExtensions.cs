@@ -1,4 +1,5 @@
     using System.Reflection;
+    using Blog.Entity.DTOs.Categories;
     using Blog.Service.AutoMapper;
     using Blog.Service.Services.Concretes;
     using Blog.Service.Services.Contracts;
@@ -15,10 +16,16 @@
             return services;
         }
 
-        public static IServiceCollection ArticleDtoExtensions(this IServiceCollection services)
+        public static IServiceCollection ArticleDtoExtension(this IServiceCollection services)
         {
             var assembly = Assembly.GetExecutingAssembly();
             services.AddAutoMapper(assembly);
+            return services;
+        }
+
+        public static IServiceCollection CategoryDtoExtension(this IServiceCollection services)
+        {
+            services.AddScoped<ICategoryService, CategoryService>();
             return services;
         }
 
