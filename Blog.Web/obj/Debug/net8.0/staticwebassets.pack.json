@@ -1,6 +1,14 @@
 {
   "Files": [
     {
+      "Id": "/Users/yusufakyuz/.nuget/packages/ntoastnotify/8.0.0/contentFiles/any/net6.0/wwwroot/noty.js",
+      "PackagePath": "staticwebassets/noty.js"
+    },
+    {
+      "Id": "/Users/yusufakyuz/.nuget/packages/ntoastnotify/8.0.0/contentFiles/any/net6.0/wwwroot/toastr.js",
+      "PackagePath": "staticwebassets/toastr.js"
+    },
+    {
       "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/obj/Debug/net8.0/scopedcss/projectbundle/Blog.Web.bundle.scp.css",
       "PackagePath": "staticwebassets/Blog.Web.bundle.scp.css"
     },

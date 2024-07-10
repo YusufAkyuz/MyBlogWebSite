@@ -3,6 +3,7 @@
     using Blog.Entity.Entities;
     using Blog.Service.Extensions;
     using Microsoft.AspNetCore.Identity;
+    using NToastNotify;
 
 
     var builder = WebApplication.CreateBuilder(args);
@@ -12,7 +13,25 @@
     builder.Services.RepositoryExtension(builder.Configuration);
     builder.Services.UnitOfWorkExtension();
     builder.Services.ArticleServiceExtension();
-    builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
+    builder.Services.AddControllersWithViews()
+        .AddNToastNotifyToastr(new ToastrOptions()
+        {
+            ProgressBar = true,
+            PositionClass = ToastPositions.TopRight,
+            TimeOut = 5000,
+            CloseButton = true,
+            NewestOnTop = true,
+            PreventDuplicates = true,
+            ShowDuration = 300,
+            HideDuration = 1000,
+            ExtendedTimeOut = 1000,
+            ShowEasing = "swing",
+            HideEasing = "linear",
+            ShowMethod = "fadeIn",
+            HideMethod = "fadeOut",
+            ToastClass = "toast-custom" // Özel bir sınıf ekleyebilirsiniz
+        })
+        .AddRazorRuntimeCompilation();
     builder.Services.ArticleDtoExtension();
     builder.Services.CategoryDtoExtension();
     builder.Services.ArticleValidatorExtension();
@@ -41,7 +60,7 @@
         };
         config.SlidingExpiration = true;
         config.ExpireTimeSpan =
-            TimeSpan.FromDays(7); //Giriş yaptı   ktan 7 gün sonrasına kadar oturumun açık kalması sağlanır
+            TimeSpan.FromDays(1); //Giriş yaptı   ktan 7 gün sonrasına kadar oturumun açık kalması sağlanır
         config.AccessDeniedPath =
             new PathString("/Admin/Auth/AccessDenied"); //yetkisiz işlem olunca bu sayfaya atıcak bizi
     });
@@ -53,6 +72,8 @@
         app.UseExceptionHandler("/Home/Error");
         app.UseHsts();
     }
+
+    app.UseNToastNotify();
 
     app.UseHttpsRedirection();
     app.UseStaticFiles();
