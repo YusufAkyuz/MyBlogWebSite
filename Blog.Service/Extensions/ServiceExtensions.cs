@@ -7,6 +7,7 @@
     using Blog.Service.Services.Contracts;
     using FluentValidation;
     using FluentValidation.AspNetCore;
+    using Microsoft.AspNetCore.Http;
     using Microsoft.Extensions.DependencyInjection;
 
     namespace Blog.Service.Extensions;
@@ -42,6 +43,12 @@
                 options.ValidatorOptions.LanguageManager.Culture = new CultureInfo("tr");
             });
         
+            return services;
+        }
+
+        public static IServiceCollection LoggedUserExtension(this IServiceCollection services)
+        {
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
             return services;
         }
         
