@@ -82,10 +82,11 @@ public class ArticleService : IArticleService
 
             article.ImageId = image.Id;
         }
-        
-        article.Title = articleUpdateDto.Title; 
-        article.Content = articleUpdateDto.Content;
-        article.CategoryId = articleUpdateDto.CategoryId;
+
+        _mapper.Map(articleUpdateDto, article);
+        // article.Title = articleUpdateDto.Title;          |
+        // article.Content = articleUpdateDto.Content;      |   Bu üç satırı maping sayesinde kısalttık
+        // article.CategoryId = articleUpdateDto.CategoryId;|
         article.ModifiedDate = DateTime.UtcNow;
         article.ModifiedBy = _accessor.HttpContext.User.GetLoggedInUserEmail();
         
