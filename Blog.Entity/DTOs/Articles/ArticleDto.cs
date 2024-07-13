@@ -1,4 +1,5 @@
 using Blog.Entity.DTOs.Categories;
+using Blog.Entity.Entities;
 
 namespace Blog.Entity.DTOs.Articles;
 
@@ -9,6 +10,7 @@ public class ArticleDto
     public string Content { get; set; }
     public CategoryDto Category { get; set; }
     public DateTime CreatedDate { get; set; }
+    public Image Image { get; set; }
     public string CreatedBy { get; set; }
     public bool IsDeleted { get; set; }
 }

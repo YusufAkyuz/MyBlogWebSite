@@ -36,6 +36,7 @@
     builder.Services.CategoryDtoExtension();
     builder.Services.ArticleValidatorExtension();
     builder.Services.LoggedUserExtension();
+    builder.Services.ImageUploadedExtension();
 
     builder.Services.AddSession();
     builder.Services.AddIdentity<AppUser, AppRole>(options =>

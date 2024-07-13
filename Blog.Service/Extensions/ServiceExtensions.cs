@@ -3,6 +3,7 @@
     using Blog.Entity.DTOs.Categories;
     using Blog.Service.AutoMapper;
     using Blog.Service.FluentValidations;
+    using Blog.Service.Helpers.Images;
     using Blog.Service.Services.Concretes;
     using Blog.Service.Services.Contracts;
     using FluentValidation;
@@ -49,6 +50,11 @@
         public static IServiceCollection LoggedUserExtension(this IServiceCollection services)
         {
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            return services;
+        }
+        public static IServiceCollection ImageUploadedExtension(this IServiceCollection services)
+        {
+            services.AddScoped<IImageHelper, ImageHelper>();
             return services;
         }
         

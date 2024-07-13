@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "6v1BzPdmlbCDR5PG/5mgM7ph2w++PVwlgDostsk/z/zHscmTbozRyWnQcNUwcTuErqWu+l0XwLRW+aDKbI+d4w==",
+  "dgSpecHash": "ef/b0hxPMQ/TVWcB4Qpq7oNIiPVii7652ZmuJQPfa61/4o7A1QyMzYMqSY5uC2PZizF/OA7RWHPcdLjcGkdpfg==",
   "success": true,
   "projectFilePath": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Entity/Blog.Entity.csproj",
   "expectedPackageFiles": [
     "/Users/yusufakyuz/.nuget/packages/microsoft.aspnetcore.cryptography.internal/8.0.4/microsoft.aspnetcore.cryptography.internal.8.0.4.nupkg.sha512",
     "/Users/yusufakyuz/.nuget/packages/microsoft.aspnetcore.cryptography.keyderivation/8.0.4/microsoft.aspnetcore.cryptography.keyderivation.8.0.4.nupkg.sha512",
+    "/Users/yusufakyuz/.nuget/packages/microsoft.aspnetcore.http.abstractions/2.2.0/microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "/Users/yusufakyuz/.nuget/packages/microsoft.aspnetcore.http.features/2.2.0/microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "/Users/yusufakyuz/.nuget/packages/microsoft.extensions.caching.abstractions/8.0.0/microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
     "/Users/yusufakyuz/.nuget/packages/microsoft.extensions.dependencyinjection/8.0.0/microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
     "/Users/yusufakyuz/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
@@ -14,7 +16,8 @@
     "/Users/yusufakyuz/.nuget/packages/microsoft.extensions.logging/8.0.0/microsoft.extensions.logging.8.0.0.nupkg.sha512",
     "/Users/yusufakyuz/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.0/microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
     "/Users/yusufakyuz/.nuget/packages/microsoft.extensions.options/8.0.2/microsoft.extensions.options.8.0.2.nupkg.sha512",
-    "/Users/yusufakyuz/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+    "/Users/yusufakyuz/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "/Users/yusufakyuz/.nuget/packages/system.text.encodings.web/4.5.0/system.text.encodings.web.4.5.0.nupkg.sha512"
   ],
   "logs": []
 }

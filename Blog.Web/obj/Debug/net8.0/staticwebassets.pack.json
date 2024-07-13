@@ -21,6 +21,18 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/images/article-images/Imageyuklemeyapiyoruz_831.jpg",
+      "PackagePath": "staticwebassets/images/article-images/Imageyuklemeyapiyoruz_831.jpg"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/images/article-images/haleminnosu_63.JPG",
+      "PackagePath": "staticwebassets/images/article-images/haleminnosu_63.JPG"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/images/article-images/sadasdsaSptringImageMakale_343.jpg",
+      "PackagePath": "staticwebassets/images/article-images/sadasdsaSptringImageMakale_343.jpg"
+    },
+    {
       "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/js/articleIndex.js",
       "PackagePath": "staticwebassets/js/articleIndex.js"
     },
