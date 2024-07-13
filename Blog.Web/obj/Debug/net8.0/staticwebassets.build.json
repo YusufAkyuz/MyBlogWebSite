@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hTISdI14GTyY2SwI6ukhD6t17nWcfJoWwNeaLc4LwGY=",
+  "Hash": "eL3CKN2IWdz8tb6d4kgiWaIurY6hDFeYb9iyR6wVek0=",
   "Source": "Blog.Web",
   "BasePath": "_content/Blog.Web",
   "Mode": "Default",
@@ -243,6 +243,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/js/articleIndex.js"
+    },
+    {
+      "Identity": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/js/categoryIndex,.js",
+      "SourceId": "Blog.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/",
+      "BasePath": "_content/Blog.Web",
+      "RelativePath": "js/categoryIndex,.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/categoryIndex,.js"
     },
     {
       "Identity": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/js/site.js",

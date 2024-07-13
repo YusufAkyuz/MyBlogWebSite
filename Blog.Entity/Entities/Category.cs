@@ -4,13 +4,14 @@ namespace Blog.Entity.Entities;
 
 public class Category : EntityBase
 {
-    public Category()
+ public Category()
     {
         
     }
 
-    public Category(string name)
+    public Category(string name, string createdBy)
     {
+        CreatedBy = createdBy;
         Name = name;
     }
     public string Name { get; set; }
