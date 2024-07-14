@@ -9,5 +9,6 @@ public class UserProfile : Profile
     public UserProfile()
     {
         CreateMap<AppUser, UserDto>().ReverseMap();
+        CreateMap<AppUser, UserAddDto>().ReverseMap();
     }
 }
