@@ -28,6 +28,13 @@ public class CategoryService : ICategoryService
         return map;
     }
 
+    public async Task<List<CategoryDto>> GetAllCategoriesDeletedAsync()
+    {
+        var categories = await _unitOfWork.GetRepository<Category>().GetAllAsync(x => x.IsDeleted);
+        var map = _mapper.Map<List<CategoryDto>>(categories);
+        return map;
+    }
+
     public async Task Add(CategoryAddDto categoryAddDto)
     {
         var userName = _accessor.HttpContext.User.GetLoggedInUserEmail();
@@ -63,6 +70,20 @@ public class CategoryService : ICategoryService
         category.ModifiedDate = DateTime.UtcNow;
         category.DeletedBy = userEmail;
         category.IsDeleted = true;
+
+        await _unitOfWork.GetRepository<Category>().UpdateAsync(category);
+        await _unitOfWork.SaveAsync();
+        
+        return category.Name;
+    }
+
+    public async Task<string> UndoDeleteCategoryAsync(Guid id)
+    {
+        var category = await _unitOfWork.GetRepository<Category>().GetByGuidAsync(id);
+        
+        category.ModifiedDate = DateTime.UtcNow;
+        category.DeletedBy = null;
+        category.IsDeleted = false;
 
         await _unitOfWork.GetRepository<Category>().UpdateAsync(category);
         await _unitOfWork.SaveAsync();

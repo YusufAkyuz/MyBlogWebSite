@@ -32,6 +32,14 @@ public class ArticleService : IArticleService
         return map;
     }
 
+    public async Task<List<ArticleDto>> GetAllArticlesWithCategoryDeletedAsync()
+    {
+        var articles = await _unitOfWork.GetRepository<Article>().GetAllAsync(
+            x => x.IsDeleted, x=>x.Category);
+        var map = _mapper.Map<List<ArticleDto>>(articles);
+        return map;
+    }
+
     public async Task CreateArticleAsync(ArticleAddDto articleAddDto)
     {
         var userId = _accessor.HttpContext.User.GetLoggedInUserId();
@@ -99,10 +107,27 @@ public class ArticleService : IArticleService
     {
         var article = await _unitOfWork.GetRepository<Article>().GetByGuidAsync(articleId);
         article.IsDeleted = true;
+        
         article.DeletedDate = DateTime.UtcNow;
         article.DeletedBy = _accessor.HttpContext.User.GetLoggedInUserEmail();
+        
         await _unitOfWork.GetRepository<Article>().UpdateAsync(article);
         await _unitOfWork.SaveAsync();
+        
+        return article.Title;
+    }
+
+    public async Task<string> UndoDeleteArticleAsync(Guid articleId)
+    {
+        var article = await _unitOfWork.GetRepository<Article>().GetByGuidAsync(articleId);
+        article.IsDeleted = false;
+        
+        article.DeletedDate = null;
+        article.DeletedBy = null;
+        
+        await _unitOfWork.GetRepository<Article>().UpdateAsync(article);
+        await _unitOfWork.SaveAsync();
+        
         return article.Title;
     }
 }   

@@ -16,6 +16,10 @@ public static class SuccessMessage
         {
             return $"{articleTitle} başlıklı makale başarıyla silindi :)";
         }
+        public static string UndoDelete(string articleTitle)
+        {
+            return $"{articleTitle} başlıklı makale başarıyla geri yüklendi :)";
+        }
     }
     public static class CategoryMessage
     {
@@ -30,6 +34,10 @@ public static class SuccessMessage
         public static string Delete(string categoryTitle)
         {
             return $"{categoryTitle} başlıklı kategori başarıyla silindi :)";
+        }
+        public static string UndoDelete(string categoryTitle)
+        {
+            return $"{categoryTitle} başlıklı kategori başarıyla geri yüklendi :)";
         }
     }
     public static class UserMessage
