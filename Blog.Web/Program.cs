@@ -62,10 +62,11 @@
         };
         config.SlidingExpiration = true;
         config.ExpireTimeSpan =
-            TimeSpan.FromDays(1); //Giriş yaptı   ktan 7 gün sonrasına kadar oturumun açık kalması sağlanır
+            TimeSpan.FromDays(7); //Giriş yaptıktan 7 gün sonrasına kadar oturumun açık kalması sağlanır
         config.AccessDeniedPath =
             new PathString("/Admin/Auth/AccessDenied"); //yetkisiz işlem olunca bu sayfaya atıcak bizi
     });
+    
 
     var app = builder.Build();
 
