@@ -1,13 +1,14 @@
+using Blog.Core.Entities;
 using Microsoft.AspNetCore.Identity;
 
 namespace Blog.Entity.Entities;
 
-public class AppUser : IdentityUser<Guid>
+public class AppUser : IdentityUser<Guid>, IEntityBase
 {
     public string FirstName { get; set; }
     public string LastName { get; set; }
 
-    public Guid ImageId { get; set; } = Guid.Parse("F02F448C-6B36-4C2A-ADA7-7218CE5DBDC9");
+    public Guid ImageId { get; set; } = Guid.Parse("58c781bf-d6fd-4cec-9da5-5ab5e6b70eee");
     public Image Image { get; set; }
     public ICollection<Article> Articles { get; set; }
 }

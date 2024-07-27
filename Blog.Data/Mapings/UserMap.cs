@@ -56,7 +56,7 @@ public class UserMap : IEntityTypeConfiguration<AppUser>
             PhoneNumberConfirmed = true,
             EmailConfirmed = true,
             SecurityStamp = Guid.NewGuid().ToString(),
-            ImageId = Guid.Parse("F02F448C-6B36-4C2A-ADA7-7218CE5DBDC9")
+            ImageId = Guid.Parse("58c781bf-d6fd-4cec-9da5-5ab5e6b70eee")
 
         };
         SuperAdmin.PasswordHash = CreatePasswordHash(SuperAdmin, "123456");
@@ -74,7 +74,7 @@ public class UserMap : IEntityTypeConfiguration<AppUser>
             PhoneNumberConfirmed = true,
             EmailConfirmed = true,
             SecurityStamp = Guid.NewGuid().ToString(),
-            ImageId = Guid.Parse("F02F448C-6B36-4C2A-ADA7-7218CE5DBDC9"),
+            ImageId = Guid.Parse("58c781bf-d6fd-4cec-9da5-5ab5e6b70eee"),
         };
         NormalUser.PasswordHash = CreatePasswordHash(NormalUser, "111111");
 
@@ -91,7 +91,7 @@ public class UserMap : IEntityTypeConfiguration<AppUser>
             PhoneNumberConfirmed = true,
             EmailConfirmed = true,
             SecurityStamp = Guid.NewGuid().ToString(),
-            ImageId = Guid.Parse("F02F448C-6B36-4C2A-ADA7-7218CE5DBDC9")
+            ImageId = Guid.Parse("58c781bf-d6fd-4cec-9da5-5ab5e6b70eee")
         };
         Admin.PasswordHash = CreatePasswordHash(Admin, "987654");
 

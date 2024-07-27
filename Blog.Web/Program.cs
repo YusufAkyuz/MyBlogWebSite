@@ -37,6 +37,7 @@
     builder.Services.ArticleValidatorExtension();
     builder.Services.LoggedUserExtension();
     builder.Services.ImageUploadedExtension();
+    builder.Services.UserServiceExtension();
 
     builder.Services.AddSession();
     builder.Services.AddIdentity<AppUser, AppRole>(options =>

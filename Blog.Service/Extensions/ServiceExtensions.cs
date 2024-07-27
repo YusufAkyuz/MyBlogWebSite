@@ -57,5 +57,10 @@
             services.AddScoped<IImageHelper, ImageHelper>();
             return services;
         }
+        public static IServiceCollection UserServiceExtension(this IServiceCollection services)
+        {
+            services.AddScoped<IUserService, UserService>();
+            return services;
+        }
         
     }

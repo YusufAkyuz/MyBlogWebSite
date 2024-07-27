@@ -33,6 +33,14 @@
       "PackagePath": "staticwebassets/images/article-images/sadasdsaSptringImageMakale_343.jpg"
     },
     {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/images/user-images/AdminUserGuncellemeAkyuz_152.jpg",
+      "PackagePath": "staticwebassets/images/user-images/AdminUserGuncellemeAkyuz_152.jpg"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/images/user-images/NormalUserAkyuz_917.png",
+      "PackagePath": "staticwebassets/images/user-images/NormalUserAkyuz_917.png"
+    },
+    {
       "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/js/articleIndex.js",
       "PackagePath": "staticwebassets/js/articleIndex.js"
     },
