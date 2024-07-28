@@ -33,12 +33,40 @@
       "PackagePath": "staticwebassets/images/article-images/sadasdsaSptringImageMakale_343.jpg"
     },
     {
-      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/images/user-images/AdminUserGuncellemeAkyuz_152.jpg",
-      "PackagePath": "staticwebassets/images/user-images/AdminUserGuncellemeAkyuz_152.jpg"
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/images/user-images/AhmetYilmaz_508.png",
+      "PackagePath": "staticwebassets/images/user-images/AhmetYilmaz_508.png"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/images/user-images/AhmetYilmaz_77.png",
+      "PackagePath": "staticwebassets/images/user-images/AhmetYilmaz_77.png"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/images/user-images/AhmetYilmaz_771.png",
+      "PackagePath": "staticwebassets/images/user-images/AhmetYilmaz_771.png"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/images/user-images/AhmetYilmaz_909.png",
+      "PackagePath": "staticwebassets/images/user-images/AhmetYilmaz_909.png"
     },
     {
       "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/images/user-images/NormalUserAkyuz_917.png",
       "PackagePath": "staticwebassets/images/user-images/NormalUserAkyuz_917.png"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/images/user-images/SuperAdminAkyuz_138.png",
+      "PackagePath": "staticwebassets/images/user-images/SuperAdminAkyuz_138.png"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/images/user-images/SuperAdminAkyuz_148.png",
+      "PackagePath": "staticwebassets/images/user-images/SuperAdminAkyuz_148.png"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/images/user-images/SuperAdminAkyuz_324.png",
+      "PackagePath": "staticwebassets/images/user-images/SuperAdminAkyuz_324.png"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/images/user-images/default.jpg",
+      "PackagePath": "staticwebassets/images/user-images/default.jpg"
     },
     {
       "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/js/articleIndex.js",

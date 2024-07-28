@@ -15,4 +15,6 @@ public interface IUserService
     Task<IdentityResult> UpdateUserAsync(UserUpdateDto userUpdateDto);
     Task<string> GetUserRoleAsync(AppUser user);
     Task<(IdentityResult identityResult, string? userEmail)> DeleteUserAsync(Guid userId);
+    Task<UserProfileDto> GetUserProfileDtoAsync();
+    Task<bool> UserProfileUpdateAsync(UserProfileDto userProfileDto);
 }

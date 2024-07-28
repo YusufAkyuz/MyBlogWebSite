@@ -3257,7 +3257,8 @@
           "Blog.Data": "1.0.0",
           "Blog.Entity": "1.0.0",
           "FluentValidation.AspNetCore": "11.3.0",
-          "FluentValidation.DependencyInjectionExtensions": "11.9.2"
+          "FluentValidation.DependencyInjectionExtensions": "11.9.2",
+          "NToastNotify": "8.0.0"
         },
         "runtime": {
           "Blog.Service.dll": {}
