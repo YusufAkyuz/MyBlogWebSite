@@ -38,6 +38,7 @@
     builder.Services.LoggedUserExtension();
     builder.Services.ImageUploadedExtension();
     builder.Services.UserServiceExtension();
+    builder.Services.DashboardExtension();
 
     builder.Services.AddSession();
     builder.Services.AddIdentity<AppUser, AppRole>(options =>

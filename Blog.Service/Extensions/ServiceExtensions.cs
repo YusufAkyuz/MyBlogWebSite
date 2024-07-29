@@ -62,5 +62,10 @@
             services.AddScoped<IUserService, UserService>();
             return services;
         }
+        public static IServiceCollection DashboardExtension(this IServiceCollection services)
+        {
+            services.AddScoped<IDashBoardService, DashboardService>();
+            return services;
+        }
         
     }

@@ -1,1 +1,75 @@
-﻿
+﻿<div class="content-wrapper">
+    <div class="container-xxl flex-grow-1 container-p-y">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 order-1">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-6 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <div class="card-title d-flex align-items-start justify-content-between">
+                                    <i style="height:30px; font-size:2.25rem" class="menu-icon bx bx-paper-plane"></i>
+                                </div>
+                                <span class="fw-semibold d-block mb-1">Toplam Yayınlanan <br /> Makale Sayısı</span>
+                                <h3 class="card-title mb-2" id="totalArticleCount"></h3>
+                                <small class="text-success fw-semibold"></small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-6 mb-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <div class="card-title d-flex align-items-start justify-content-between">
+                                    <i style="height:30px; font-size:2.25rem" class="menu-icon bx bx-category"></i>
+                                </div>
+                                <span class="fw-semibold d-block mb-1">Toplam Eklenen <br /> Kategori Sayısı</span>
+                                <h3 class="card-title text-nowrap mb-1" id="totalCategoryCount"></h3>
+                                <small class="text-success fw-semibold"></small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Total Revenue -->
+            <div class="col-12 col-lg-8 order-2 order-md-3 order-lg-2 mb-4">
+                <div class="card">
+                    <div class="row row-bordered g-0">
+                        <div class="col-md-12">
+                            <h5 class="card-header m-0 me-2 pb-3">@DateTime.Now.Year Yılının Makale Yayınlama Analizi</h5>
+                            <div id="customTotalRevenueChart" class="px-2"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- / Content -->
+    <!-- Footer -->
+    <footer class="content-footer footer bg-footer-theme">
+        <div class="container-xxl d-flex flex-wrap justify-content-between py-2 flex-md-row flex-column">
+            <div class="mb-2 mb-md-0">
+                © <script>
+                    document.write(new Date().getFullYear())
+                </script> made with by Yusuf Akyüz
+            </div>
+            <div>
+                <a href="https://themeselection.com/license/" class="footer-link me-4" target="_blank">License</a>
+                <a href="https://themeselection.com/" target="_blank" class="footer-link me-4">More Themes</a>
+                <a href="https://themeselection.com/demo/sneat-bootstrap-html-admin-template/documentation/" target="_blank" class="footer-link me-4">Documentation</a>
+                <a href="https://github.com/themeselection/sneat-html-admin-template-free/issues" target="_blank" class="footer-link me-4">Support</a>
+            </div>
+        </div>
+    </footer>
+    <!-- / Footer -->
+    <div class="content-backdrop fade"></div>
+</div>
+
+@section Scripts{
+    <script src="~/js/dashboardIndex.js"></script>
+    <script>
+        var app = app || {};
+        app.Urls = app.Urls || {};
+        app.Urls.yearlyArticlesUrl = "@(Url.Action("YearlyArticleCounts", "Home"))";
+        app.Urls.totalArticleCountUrl = "@(Url.Action("TotalArticleCount", "Home"))";
+        app.Urls.totalCategoryCountUrl = "@(Url.Action("TotalCategoryCount", "Home"))";
+    </script>
+}
