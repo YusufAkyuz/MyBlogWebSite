@@ -16,9 +16,9 @@ public class HomeController : Controller
         _articlecleService = articlecleService;
     }
 
-    public async Task<IActionResult> Index()
+    public async Task<IActionResult> Index(Guid? categoryId, int currentPage = 1, int pageSize = 3, bool isAscending = false)
     {
-        var articles = await _articlecleService.GetAllArticleWithCategoryNonDeletedAsync();
+        var articles = await _articlecleService.GetAllByPaginationAsync(categoryId, currentPage, pageSize, isAscending);
         return View(articles);
     }
 

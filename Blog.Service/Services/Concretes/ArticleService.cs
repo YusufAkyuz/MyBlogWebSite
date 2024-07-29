@@ -7,6 +7,7 @@ using Blog.Service.Extensions;
 using Blog.Service.Helpers.Images;
 using Blog.Service.Services.Contracts;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace Blog.Service.Services.Concretes;
 
@@ -129,5 +130,31 @@ public class ArticleService : IArticleService
         await _unitOfWork.SaveAsync();
         
         return article.Title;
+    }
+    
+    //Pagination Process
+    public async Task<ArticleListDto> GetAllByPaginationAsync(Guid? categoryId, int currentPage = 1, int pageSize = 3,
+        bool isAscending = false)
+    {
+        pageSize = pageSize > 20 ? 20 : pageSize;
+        var articles = categoryId == null
+            ? await _unitOfWork.GetRepository<Article>().GetAllAsync(a => !a.IsDeleted,
+                a => a.Category, a => a.Image, u=>u.User)
+            : await _unitOfWork.GetRepository<Article>().GetAllAsync(a => a.CategoryId == categoryId && !a.IsDeleted,
+                a => a.Category, a => a.Image, u=>u.User);
+
+        var sortedArticles = isAscending
+            ? articles.OrderBy(x => x.CreatedDate).Skip((currentPage - 1) * pageSize).Take(pageSize).ToList()
+            : articles.OrderByDescending(x => x.CreatedDate).Skip((currentPage - 1) * pageSize).Take(pageSize).ToList();
+
+        return new ArticleListDto()
+        {
+            Articles = sortedArticles,
+            CategoryId = categoryId == null ? null : categoryId.Value,
+            PageSize = pageSize,
+            CurrentPage = currentPage,
+            IsAscending = isAscending,
+            TotalCount = articles.Count
+        };
     }
 }   
