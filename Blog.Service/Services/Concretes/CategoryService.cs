@@ -35,6 +35,13 @@ public class CategoryService : ICategoryService
         return map;
     }
 
+    public async Task<List<CategoryDto>> Get24CategoriesDeletedAsync()
+    {
+        var categories = await _unitOfWork.GetRepository<Category>().GetAllAsync(x => x.IsDeleted);
+        var map = _mapper.Map<List<CategoryDto>>(categories);
+        return map.Take(24).ToList();
+    }
+
     public async Task Add(CategoryAddDto categoryAddDto)
     {
         var userName = _accessor.HttpContext.User.GetLoggedInUserEmail();

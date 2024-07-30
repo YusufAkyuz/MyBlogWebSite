@@ -7,6 +7,7 @@ public interface ICategoryService
 {
     public Task<List<CategoryDto>> GetAllCategoriesNonDeletedAsync();
     public Task<List<CategoryDto>> GetAllCategoriesDeletedAsync();
+    public Task<List<CategoryDto>> Get24CategoriesDeletedAsync();
     Task Add(CategoryAddDto categoryAddDto);
     Task<Category> GetCatgoryById(Guid categoryId);
     Task Update(CategoryUpdateDto categoryUpdateDto);

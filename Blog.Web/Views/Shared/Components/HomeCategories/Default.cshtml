@@ -1,0 +1,10 @@
+@model List<Blog.Entity.DTOs.Categories.CategoryDto>
+
+<div class="content">
+    <ul>
+        @foreach (var category in Model)
+        {
+            <li> <a href="#">@category.Name</a></li>
+        }
+    </ul>
+</div>
