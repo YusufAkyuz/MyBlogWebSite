@@ -187,9 +187,4 @@ public class ArticleService : IArticleService
             };
         }
     }
-
-    public Task<ArticleListDto> GetArticleAsyncById(Guid articleId)
-    {
-        throw new NotImplementedException();
-    }
 }   

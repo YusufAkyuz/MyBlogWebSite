@@ -30,14 +30,14 @@ public class CategoryService : ICategoryService
 
     public async Task<List<CategoryDto>> GetAllCategoriesDeletedAsync()
     {
-        var categories = await _unitOfWork.GetRepository<Category>().GetAllAsync(x => x.IsDeleted);
+        var categories = await _unitOfWork.GetRepository<Category>().GetAllAsync(x => !x.IsDeleted);
         var map = _mapper.Map<List<CategoryDto>>(categories);
         return map;
     }
 
     public async Task<List<CategoryDto>> Get24CategoriesDeletedAsync()
     {
-        var categories = await _unitOfWork.GetRepository<Category>().GetAllAsync(x => x.IsDeleted);
+        var categories = await _unitOfWork.GetRepository<Category>().GetAllAsync(x => !x.IsDeleted);
         var map = _mapper.Map<List<CategoryDto>>(categories);
         return map.Take(24).ToList();
     }
