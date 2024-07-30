@@ -63,7 +63,7 @@ public class ArticleService : IArticleService
     public async Task<ArticleDto> GetArticleWithCategoryNonDeletedAsync(Guid articleId)
     {
 
-        var article = await _unitOfWork.GetRepository<Article>().GetAsync(x => !x.IsDeleted && x.Id == articleId, x => x.Category, x => x.Image);
+        var article = await _unitOfWork.GetRepository<Article>().GetAsync(x => !x.IsDeleted && x.Id == articleId, x => x.Category, x => x.Image, u=> u.User);
         var map = _mapper.Map<ArticleDto>(article);
 
         return map;
@@ -131,7 +131,7 @@ public class ArticleService : IArticleService
         
         return article.Title;
     }
-    
+
     //Pagination Process
     public async Task<ArticleListDto> GetAllByPaginationAsync(Guid? categoryId, int currentPage = 1, int pageSize = 3,
         bool isAscending = false)
@@ -156,5 +156,40 @@ public class ArticleService : IArticleService
             IsAscending = isAscending,
             TotalCount = articles.Count
         };
+    }
+    
+    //Searching
+
+    public async Task<ArticleListDto> SearchAsync(string keyword, int currentPage = 1, int pageSize = 3,
+        bool isAscending = false)
+    {
+        {
+            pageSize = pageSize > 20 ? 20 : pageSize;
+            var articles = keyword == null
+                ? await _unitOfWork.GetRepository<Article>().GetAllAsync(a => !a.IsDeleted,
+                    a => a.Category, a => a.Image, u => u.User)
+                : await _unitOfWork.GetRepository<Article>().GetAllAsync(a=>!a.IsDeleted &&
+                    (a.Title.Contains(keyword) || a.Content.Contains(keyword) || a.Category.Name.Contains(keyword)),
+                    a => a.Category, a => a.Image, u => u.User);
+
+            var sortedArticles = isAscending
+                ? articles.OrderBy(x => x.CreatedDate).Skip((currentPage - 1) * pageSize).Take(pageSize).ToList()
+                : articles.OrderByDescending(x => x.CreatedDate).Skip((currentPage - 1) * pageSize).Take(pageSize)
+                    .ToList();
+
+            return new ArticleListDto()
+            {
+                Articles = sortedArticles,
+                PageSize = pageSize,
+                CurrentPage = currentPage,
+                IsAscending = isAscending,
+                TotalCount = articles.Count
+            };
+        }
+    }
+
+    public Task<ArticleListDto> GetArticleAsyncById(Guid articleId)
+    {
+        throw new NotImplementedException();
     }
 }   

@@ -13,4 +13,6 @@ public class ArticleDto
     public Image Image { get; set; }
     public string CreatedBy { get; set; }
     public bool IsDeleted { get; set; }
+    public AppUser User { get; set; }
+    public int ViewCount { get; set; }
 }

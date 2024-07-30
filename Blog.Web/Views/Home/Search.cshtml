@@ -1,4 +1,4 @@
-﻿@model ArticleListDto
+@model ArticleListDto
 
 @* <div class="main-banner header-text"> *@
 @*     <div class="container-fluid"> *@
@@ -167,7 +167,9 @@
                                     <img src="~/stand-blog/assets/images/blog-post-01.jpg" alt="">
                                 </div>
                                 <div class="down-content">
-                                    <a class="title-link" asp-area="" asp-action="ArticleDetail" asp-controller="Home" asp-route-articleId="@item.Id">@item.Title</a>
+                                    @* <a asp-controller="Home" asp-action="Detail" asp-route-id="@item.Id"> *@
+                                    @*     <h4>@item.Title</h4> *@
+                                    @* </a> *@
                                     <ul class="post-info">
                                         <li>@item.User.FirstName @item.User.LastName</li>
                                         <li>@item.CreatedDate.ToString("dd/MM/yyyy")</li>
@@ -196,7 +198,7 @@
                                                         <i class="fa fa-link"></i>
                                                     </li>
                                                     <li>
-                                                        <a class="continue-read" asp-controller="Home" asp-action="ArticleDetail" asp-route-articleId="@item.Id" asp-area="">Devamını Oku</a>
+                                                        @* <a asp-controller="Home" asp-action="Detail" asp-route-id="@item.Id">[Devamını Oku]</a> *@
                                                     </li>
                                                 </ul>
                                             </div>
@@ -358,31 +360,5 @@
         background-color: #fff;
         border-color: #dee2e6;
     }
-    
-    .continue-read {
-        background-color: black;
-        color: #ffffff !important;
-        text-decoration: none;
-        padding: 10px 20px;
-        font-size: 16px;
-        border-radius: 5px;
-        transition: background-color 0.3s, transform 0.3s;
-        display: inline-block;
-    }
-    
-    .continue-read:hover {
-        background-color: black;
-        transform: scale(1.05);
-    }
-    
-    .title-link {
-                color: black;
-                transform: scale(1.05);
-            }
-    
-    .title-link:hover {
-            color: orange;
-            transform: scale(1.05);
-        }
 
 </style>

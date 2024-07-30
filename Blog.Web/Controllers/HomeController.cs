@@ -16,9 +16,16 @@ public class HomeController : Controller
         _articlecleService = articlecleService;
     }
 
+    [HttpGet]
     public async Task<IActionResult> Index(Guid? categoryId, int currentPage = 1, int pageSize = 3, bool isAscending = false)
     {
         var articles = await _articlecleService.GetAllByPaginationAsync(categoryId, currentPage, pageSize, isAscending);
+        return View(articles);
+    }
+    [HttpGet]
+    public async Task<IActionResult> Search(string keyword, int currentPage = 1, int pageSize = 3, bool isAscending = false)
+    {
+        var articles = await _articlecleService.SearchAsync(keyword, currentPage, pageSize, isAscending);
         return View(articles);
     }
 
@@ -40,4 +47,11 @@ public class HomeController : Controller
     {
         return View();
     }
+
+    public async Task<IActionResult> ArticleDetail(Guid articleId)
+    {
+        var article = await _articlecleService.GetArticleWithCategoryNonDeletedAsync(articleId);
+        return View(article);
+    }
+    
 }
