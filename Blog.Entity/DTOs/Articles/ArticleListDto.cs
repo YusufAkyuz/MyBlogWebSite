@@ -14,4 +14,6 @@ public class ArticleListDto
     public bool HasPrevious => CurrentPage > 1;
     public bool HasNext => CurrentPage < TotalPageNumber;
     public virtual bool IsAscending { get; set; } = false;
+    public int StartPage => Math.Max(1, CurrentPage - 1);
+    public int EndPage => Math.Min(TotalPageNumber, StartPage + 2);
 }

@@ -1,5 +1,7 @@
 ﻿@model ArticleListDto
 
+<body>
+
 @* <div class="main-banner header-text"> *@
 @*     <div class="container-fluid"> *@
 @*         <div class="owl-banner owl-carousel"> *@
@@ -151,7 +153,7 @@
 @*     </div> *@
 @* </div> *@ <!-- TODO: slide bar burası ilerleyen süreçte eklemeler yapıcaz  -->
 
-<div style="height: 80px"></div>
+<div style="height: 40px"></div>
 
 <section class="blog-posts">
     <div class="container">
@@ -167,7 +169,7 @@
                                     <img src="~/stand-blog/assets/images/blog-post-01.jpg" alt="">
                                 </div>
                                 <div class="down-content">
-                                    <a class="title-link" asp-area="" asp-action="ArticleDetail" asp-controller="Home" asp-route-articleId="@item.Id">@item.Title</a>
+                                    <a class="title-link title" asp-area="" asp-action="ArticleDetail" asp-controller="Home" asp-route-articleId="@item.Id">@item.Title</a>
                                     <ul class="post-info">
                                         <li>@item.User.FirstName @item.User.LastName</li>
                                         <li>@item.CreatedDate.ToString("dd/MM/yyyy")</li>
@@ -206,21 +208,16 @@
                             </div>
                         }
                         <div class="col-lg-12">
-                            @* <div class="main-button"> *@
-                            @*     <a href="blog.html">View All Posts</a> *@
-                            @* </div> *@
                             <ul class="pagination justify-content-center mb-4 mt-4 btn-block">
-
                                 @if (Model.HasPrevious)
                                 {
                                     <li class="page-item">
                                         <a class="page-link" asp-route-currentPage="@(Model.CurrentPage - 1)" asp-route-pageSize="@Model.PageSize" asp-area=""> Önceki </a>
                                     </li>
                                 }
-                                @for (int i = 1; i <= Model.TotalPageNumber; i++)
+                                @for (int i = Model.StartPage; i <= Model.EndPage; i++)
                                 {
                                     <li class="page-item @(i == Model.CurrentPage ? "active" : "")">
-
                                         <a class="page-link" asp-route-currentPage="@i" asp-route-pageSize="@Model.PageSize" asp-area=""> @i </a>
                                     </li>
                                 }
@@ -230,9 +227,9 @@
                                         <a class="page-link" asp-route-currentPage="@(Model.CurrentPage + 1)" asp-route-pageSize="@Model.PageSize" asp-area=""> Sonraki </a>
                                     </li>
                                 }
-
                             </ul>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -251,28 +248,7 @@
                                 <div class="sidebar-heading">
                                     <h2>Recent Posts</h2>
                                 </div>
-                                <div class="content">
-                                    <ul>
-                                        <li>
-                                            <a href="post-details.html">
-                                                <h5>Vestibulum id turpis porttitor sapien facilisis scelerisque</h5>
-                                                <span>May 31, 2020</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="post-details.html">
-                                                <h5>Suspendisse et metus nec libero ultrices varius eget in risus</h5>
-                                                <span>May 28, 2020</span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="post-details.html">
-                                                <h5>Swag hella echo park leggings, shaman cornhole ethical coloring</h5>
-                                                <span>May 14, 2020</span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
+                                @await Component.InvokeAsync("HomeRecentArticles")
                             </div>
                         </div>
                         <div class="col-lg-12">
@@ -289,7 +265,7 @@
         </div>
     </div>
 </section>
-
+</body>
 <style>
     .pagination {
         display: flex;
@@ -338,21 +314,12 @@
         border-color: #dee2e6;
     }
     
-    .continue-read {
-        background-color: black;
-        color: #ffffff !important;
-        text-decoration: none;
-        padding: 10px 20px;
-        font-size: 16px;
-        border-radius: 5px;
-        transition: background-color 0.3s, transform 0.3s;
-        display: inline-block;
+    .continue-read{
+        color: black!important;
     }
-    
-    .continue-read:hover {
-        background-color: black;
-        transform: scale(1.05);
-    }
+    .continue-read:hover{
+            color: orange!important;
+        }
     
     .title-link {
                 color: black;
@@ -363,5 +330,26 @@
             color: orange;
             transform: scale(1.05);
         }
+    
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+    
+    .title {
+        font-size: 30px; /* Yazı boyutu */
+        font-weight: bold; /* Normal yazı stili */
+        color: #363636; /* Koyu gri renk tonu */
+        text-align: center; /* Metni ortalar */
+        margin: 20px 0; /* Üst ve alt boşluklar ekler */
+        box-shadow: black; /* Gölge efekti kaldırır */
+    }
+
+
+    .title:hover {
+        color: orange;
+        }
+
 
 </style>

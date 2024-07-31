@@ -1,0 +1,18 @@
+@model List<ArticleDto>
+
+@{
+}
+
+<div class="content">
+    <ul>
+        @foreach (var article in Model)
+        {
+            <li>
+                <a asp-controller="Home" asp-area="" asp-action="ArticleDetail" asp-route-articleId="@article.Id">
+                    <h5>@article.Title</h5>
+                    <span>@article.CreatedDate.ToString("dd/MM/yyyy")</span>
+                </a>
+            </li>
+        }
+    </ul>
+</div>

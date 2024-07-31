@@ -12,6 +12,7 @@ public class HomeCategoriesViewComponent : ViewComponent
         _categoryService = categoryService;
     }
 
+    //Invoke anlamı çağırmak zaten view'i çağıracak metodumuz budur
     public async Task<IViewComponentResult> InvokeAsync()
     {
         var categories = await _categoryService.Get24CategoriesDeletedAsync();

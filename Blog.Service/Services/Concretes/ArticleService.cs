@@ -187,4 +187,12 @@ public class ArticleService : IArticleService
             };
         }
     }
+
+    public async Task<List<ArticleDto>> GetRecentArticlesAsyncNonDeleted()
+    {
+        var articles = await _unitOfWork.GetRepository<Article>().GetAllAsync();
+        var recentArticles = articles.OrderByDescending(x => x.CreatedDate).Take(3).ToList();
+        var mapRecentArticles = _mapper.Map<List<ArticleDto>>(recentArticles);
+        return mapRecentArticles;
+    }
 }   

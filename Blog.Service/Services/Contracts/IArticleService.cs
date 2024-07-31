@@ -19,4 +19,7 @@ public interface IArticleService
         bool isAscending = false);
     Task<ArticleListDto> SearchAsync(string keyword, int currentPage = 1, int pageSize = 3,
         bool isAscending = false);
+    
+    //Recent Articles
+    Task<List<ArticleDto>> GetRecentArticlesAsyncNonDeleted();
 }
