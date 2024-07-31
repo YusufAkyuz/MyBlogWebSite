@@ -4,9 +4,9 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace Blog.Data.Mapings;
 
-public class ArticleVisitorMap : IEntityTypeConfiguration<ArticleVisitors>
+public class ArticleVisitorMap : IEntityTypeConfiguration<ArticleVisitor>
 {
-    public void Configure(EntityTypeBuilder<ArticleVisitors> builder)
+    public void Configure(EntityTypeBuilder<ArticleVisitor> builder)
     {
         builder.HasKey(x => new { x.ArticleId, x.VisitorId });
     }

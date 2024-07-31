@@ -16,7 +16,7 @@ public class AppDbContext : IdentityDbContext<AppUser, AppRole, Guid, AppUserCla
     public DbSet<Category> Categories { get; set; }
     public DbSet<Image> Images { get; set; }
     public DbSet<Visitor> Visitors { get; set; }
-    public DbSet<ArticleVisitors> ArticleVisitors { get; set; } // Düzeltme burada
+    public DbSet<ArticleVisitor> ArticleVisitors { get; set; } // Düzeltme burada
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -24,15 +24,15 @@ public class AppDbContext : IdentityDbContext<AppUser, AppRole, Guid, AppUserCla
         modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
 
         // Many-to-Many ilişki konfigürasyonu
-        modelBuilder.Entity<ArticleVisitors>()
+        modelBuilder.Entity<ArticleVisitor>()
             .HasKey(av => new { av.ArticleId, av.VisitorId });
 
-        modelBuilder.Entity<ArticleVisitors>()
+        modelBuilder.Entity<ArticleVisitor>()
             .HasOne(av => av.Article)
             .WithMany(a => a.ArticleVisitors)
             .HasForeignKey(av => av.ArticleId);
 
-        modelBuilder.Entity<ArticleVisitors>()
+        modelBuilder.Entity<ArticleVisitor>()
             .HasOne(av => av.Visitor)
             .WithMany(v => v.ArticleVisitors)
             .HasForeignKey(av => av.VisitorId);
