@@ -17,6 +17,7 @@ public class AppDbContext : IdentityDbContext<AppUser, AppRole, Guid, AppUserCla
     public DbSet<Image> Images { get; set; }
     public DbSet<Visitor> Visitors { get; set; }
     public DbSet<ArticleVisitor> ArticleVisitors { get; set; } // Düzeltme burada
+    public DbSet<Comment> Comments { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

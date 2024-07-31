@@ -40,6 +40,7 @@
     builder.Services.ImageUploadedExtension();
     builder.Services.UserServiceExtension();
     builder.Services.DashboardExtension();
+    builder.Services.CommentExtension();
 
     builder.Services.AddSession();
     builder.Services.AddIdentity<AppUser, AppRole>(options =>
@@ -89,18 +90,20 @@
     app.UseSession();
     app.UseAuthentication();    //--> Kimlik doğruşama işlemlerini kullan dedik artık
     app.UseAuthorization();     //yetkilendirme işlemi her zaman kimlik doğrulama işleminden sonra gelmelidir
-
-    app.MapControllerRoute(
-        name: "Admin",
-        pattern: "Admin/{controller=Home}/{action=Index}/{id?}",
-        defaults: new { area = "Admin" }
-    );
+    
     app.UseEndpoints(endpoints =>
     {
         endpoints.MapControllerRoute(
             name: "default",
             pattern: "{controller=Home}/{action=Index}/{id?}");
     });
+
+
+    app.MapControllerRoute(
+        name: "Admin",
+        pattern: "Admin/{controller=Home}/{action=Index}/{id?}",
+        defaults: new { area = "Admin" }
+    );
 
     app.MapDefaultControllerRoute();
 

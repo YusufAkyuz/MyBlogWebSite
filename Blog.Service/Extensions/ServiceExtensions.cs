@@ -1,7 +1,5 @@
     using System.Globalization;
     using System.Reflection;
-    using Blog.Entity.DTOs.Categories;
-    using Blog.Service.AutoMapper;
     using Blog.Service.FluentValidations;
     using Blog.Service.Helpers.Images;
     using Blog.Service.Services.Concretes;
@@ -65,6 +63,11 @@
         public static IServiceCollection DashboardExtension(this IServiceCollection services)
         {
             services.AddScoped<IDashBoardService, DashboardService>();
+            return services;
+        }
+        public static IServiceCollection CommentExtension(this IServiceCollection services)
+        {
+            services.AddScoped<ICommentService, CommentService>();
             return services;
         }
         

@@ -1,9 +1,11 @@
 using System.Diagnostics;
 using Blog.Data.UnitOfWorks;
+using Blog.Entity.DTOs.Comments;
 using Blog.Entity.Entities;
 using Blog.Service.Services.Contracts;
 using Microsoft.AspNetCore.Mvc;
 using Blog.Web.Models;
+using NToastNotify;
 
 namespace Blog.Web.Controllers;
 
@@ -13,14 +15,19 @@ public class HomeController : Controller
     private readonly IArticleService _articlecleService;
     private readonly IHttpContextAccessor _contextAccessor;
     private readonly IUnitOfWork _unitOfWork;
+    private readonly ICommentService _commentService;
+    private readonly IToastNotification _toastNotification;
 
     public HomeController(ILogger<HomeController> logger, IArticleService articlecleService, 
-        IHttpContextAccessor contextAccessor, IUnitOfWork unitOfWork)
+        IHttpContextAccessor contextAccessor, IUnitOfWork unitOfWork, ICommentService commentService
+        ,IToastNotification toastNotification)
     {
         _logger = logger;
         _articlecleService = articlecleService;
         _contextAccessor = contextAccessor;
         _unitOfWork = unitOfWork;
+        _commentService = commentService;
+        _toastNotification = toastNotification;
     }
 
     [HttpGet]
@@ -81,5 +88,24 @@ public class HomeController : Controller
 
         return View(result);
     }
+
+    [HttpPost]
+    public async Task<IActionResult> SendComment(Guid articleId, string name, string email, string content)
+    {
+        var articleDto = await _articlecleService.GetArticleWithCategoryNonDeletedAsync(articleId);
+    
+        if (ModelState.IsValid)
+        {
+            await _commentService.CreateCommentAsync(articleId, name, email, content);
+            _toastNotification.AddSuccessToastMessage("Yorumunuz başarıyla gönderildi!");
+        }
+        else
+        {
+            _toastNotification.AddErrorToastMessage("Yorumunuz gönderilemedi.");
+        }
+
+        return RedirectToAction("ArticleDetail", "Home", articleDto);
+    }
+
     
 }
