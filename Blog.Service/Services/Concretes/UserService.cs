@@ -167,8 +167,6 @@ public class UserService : IUserService
 
                     if(userProfileDto.Photo != null)
                         user.ImageId = await UploadImage(userProfileDto);
-                    
-                    user.ImageId = oldImageId;
 
                     await _userManager.UpdateAsync(user);
                     await _unitOfWork.SaveAsync();
@@ -184,10 +182,8 @@ public class UserService : IUserService
                 _mapper.Map(userProfileDto, user);
 
                 if (userProfileDto.Photo != null)
-                    user.ImageId = await UploadImage(userProfileDto);
+                        user.ImageId = await UploadImage(userProfileDto);
                 
-                user.ImageId = oldImageId;
-
                 await _userManager.UpdateAsync(user);
                 await _unitOfWork.SaveAsync();
                 return true;

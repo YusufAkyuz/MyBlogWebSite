@@ -75,8 +75,12 @@ public class HomeController : Controller
 
         var addArticleVisitors = new ArticleVisitor(article.Id,visitor.Id);
 
-        if (articeVisitors.Any(x => x.VisitorId == addArticleVisitors.VisitorId && x.ArticleId == addArticleVisitors.ArticleId))
+        if (articeVisitors.Any(x =>
+                x.VisitorId == addArticleVisitors.VisitorId && x.ArticleId == addArticleVisitors.ArticleId))
+        {
+            result.Comments = await _commentService.GetCommentsWithArticleId(articleId);
             return View(result);
+        }
         else
         {
             await _unitOfWork.GetRepository<ArticleVisitor>().AddAsync(addArticleVisitors);
@@ -86,26 +90,11 @@ public class HomeController : Controller
             result.ViewCount++;
         }
 
+        result.Comments = await _commentService.GetCommentsWithArticleId(articleId);
         return View(result);
     }
 
-    [HttpPost]
-    public async Task<IActionResult> SendComment(Guid articleId, string name, string email, string content)
-    {
-        var articleDto = await _articlecleService.GetArticleWithCategoryNonDeletedAsync(articleId);
     
-        if (ModelState.IsValid)
-        {
-            await _commentService.CreateCommentAsync(articleId, name, email, content);
-            _toastNotification.AddSuccessToastMessage("Yorumunuz başarıyla gönderildi!");
-        }
-        else
-        {
-            _toastNotification.AddErrorToastMessage("Yorumunuz gönderilemedi.");
-        }
-
-        return RedirectToAction("ArticleDetail", "Home", articleDto);
-    }
 
     
 }

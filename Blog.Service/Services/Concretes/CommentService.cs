@@ -38,4 +38,10 @@ public class CommentService : ICommentService
         var mapCommentDto = _mapper.Map<List<CommentDto>>(comments);
         return mapCommentDto;
     }
+
+    public async Task<List<Comment>> GetCommentsWithArticleId(Guid articleId)
+    {
+        var comments = await _unitOfWork.GetRepository<Comment>().GetAllAsync(i => i.ArticleId == articleId);
+        return comments;
+    }
 }

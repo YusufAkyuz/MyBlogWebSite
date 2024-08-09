@@ -15,4 +15,5 @@ public class ArticleDto
     public bool IsDeleted { get; set; }
     public AppUser User { get; set; }
     public int ViewCount { get; set; }
+    public List<Comment>? Comments { get; set; }
 }

@@ -22,8 +22,21 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Areas\Admin\Controllers\" />
       <Folder Include="Areas\Admin\Models\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="wwwroot\sneat\assets\img\backgrounds\18.jpg" />
+      <_ContentIncludedByDefault Remove="wwwroot\sneat\assets\img\favicon\favicon.ico" />
+      <_ContentIncludedByDefault Remove="wwwroot\sneat\assets\img\illustrations\girl-doing-yoga-light.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\sneat\assets\img\illustrations\man-with-laptop-light.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\sneat\assets\img\illustrations\page-misc-error-light.png" />
+      <_ContentIncludedByDefault Remove="Areas\Admin\Pages\Comment\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\User\Pages\Shared\Components\Comments\Default.cshtml" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <UpToDateCheckInput Remove="Areas\User\Pages\Shared\Components\Comments\Default.cshtml" />
     </ItemGroup>
 
 </Project>

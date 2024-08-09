@@ -14,11 +14,15 @@
                                     <img src="~/stand-blog/assets/images/blog-post-01.jpg" alt="">
                                 </div>
                                 <div class="down-content">
-                                    <a href="#"><h4>@Model.Title</h4></a>
+                                    <a href="#">
+                                        <h4>@Model.Title</h4>
+                                    </a>
                                     <ul class="post-info">
                                         <li>@Model.User.FirstName @Model.User.LastName</li>
                                         <li>@Model.CreatedDate.ToString("dd/MM/yyyy")</li>
-                                        <li><i class="fa-solid fa-eye"></i> @Model.ViewCount</li>
+                                        <li>
+                                            <i class="fa-solid fa-eye"></i> @Model.ViewCount
+                                        </li>
                                     </ul>
                                     <p>
                                         @Model.Content
@@ -27,8 +31,12 @@
                                         <div class="row">
                                             <div class="col-6">
                                                 <ul class="post-tags">
-                                                    <li><i class="fa fa-tags"></i></li>
-                                                    <li><a href="#">@Model.Category.Name</a></li>
+                                                    <li>
+                                                        <i class="fa fa-tags"></i>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#">@Model.Category.Name</a>
+                                                    </li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -37,12 +45,11 @@
                             </div>
                         </div>
                     </div>
-
-                    <!-- Comment Form -->
+                    @* @await Component.InvokeAsync("Comments") *@
                     <div class="col-lg-12 mt-4">
                         <div class="comment-section">
                             <h4>Yorum Yapın</h4>
-                            <form id="commentForm" action="@Url.Action("SendComment", "Home", new { area = "" })" method="post">
+                            <form id="commentForm" action="@Url.Action("SendComment", "Comment", new {area = "User"})" method="post">
                                 <div class="form-group">
                                     <label for="name">Adınız:</label>
                                     <input type="text" id="name" name="name" class="form-control" required>
@@ -58,8 +65,33 @@
                                 <input type="hidden" name="articleId" value="@Model.Id">
                                 <button type="submit" class="btn btn-primary">Gönder</button>
                             </form>
+                        </div>
+                    </div>
 
+                    <div class="col-lg-12 mt-4">
+                        <div class="comment-section">
+                            <h4>Yorumlar</h4>
 
+                            @if (Model.Comments != null && Model.Comments.Any())
+                            {
+                                <ul class="list-unstyled">
+                                    @foreach (var comment in Model.Comments)
+                                    {
+                                        <li class="media mb-4">
+                                            <div class="media-body">
+                                                <h5 class="mt-0 mb-1">@comment.Name</h5>
+                                                <small>@comment.Email</small>
+                                                <p>@comment.Content</p>
+                                                <small>Yorum Tarihi: @comment.CreatedDate.ToString("dd MMMM yyyy HH:mm")</small>
+                                            </div>
+                                        </li>
+                                    }
+                                </ul>
+                            }
+                            else
+                            {
+                                <p>Henüz yorum yapılmamış.</p>
+                            }
                         </div>
                     </div>
 
@@ -117,4 +149,9 @@
     .btn-primary:hover {
         background-color: #005bb5;
     }
+    html, body {
+          margin: 0;
+          padding: 0;
+          height: 100%;
+        }
 </style>

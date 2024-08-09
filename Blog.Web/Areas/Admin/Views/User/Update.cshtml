@@ -11,7 +11,7 @@
         <div class="col-md-12">
             <div class="card mb-4">
                 <h5 class="card-header"></h5>
-                <form asp-controller="User" asp-action="Update" method="post" enctype="multipart/form-data">
+                <form asp-controller="User" asp-action="Update" method="post" asp-area="Admin" enctype="multipart/form-data">
                     <div asp-validation-summary="All" style="color:red"></div>
                     <input type="hidden" asp-for="Id" />
                     <div class="card-body">

@@ -41,6 +41,18 @@
       "PackagePath": "staticwebassets/images/article-images/sadasdsaSptringImageMakale_343.jpg"
     },
     {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/images/menu.svg",
+      "PackagePath": "staticwebassets/images/menu.svg"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/images/user-images/AdminUserGuncellemeAkyuz_456.jpg",
+      "PackagePath": "staticwebassets/images/user-images/AdminUserGuncellemeAkyuz_456.jpg"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/images/user-images/AdminUserGuncellemeAkyuz_59.png",
+      "PackagePath": "staticwebassets/images/user-images/AdminUserGuncellemeAkyuz_59.png"
+    },
+    {
       "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/images/user-images/AhmetYilmaz_508.png",
       "PackagePath": "staticwebassets/images/user-images/AhmetYilmaz_508.png"
     },
@@ -69,8 +81,40 @@
       "PackagePath": "staticwebassets/images/user-images/SuperAdminAkyuz_148.png"
     },
     {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/images/user-images/SuperAdminAkyuz_200.jpg",
+      "PackagePath": "staticwebassets/images/user-images/SuperAdminAkyuz_200.jpg"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/images/user-images/SuperAdminAkyuz_207.jpg",
+      "PackagePath": "staticwebassets/images/user-images/SuperAdminAkyuz_207.jpg"
+    },
+    {
       "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/images/user-images/SuperAdminAkyuz_324.png",
       "PackagePath": "staticwebassets/images/user-images/SuperAdminAkyuz_324.png"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/images/user-images/SuperAdminAkyuz_406.jpg",
+      "PackagePath": "staticwebassets/images/user-images/SuperAdminAkyuz_406.jpg"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/images/user-images/SuperAdminAkyuz_464.jpg",
+      "PackagePath": "staticwebassets/images/user-images/SuperAdminAkyuz_464.jpg"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/images/user-images/SuperAdminAkyuz_540.jpg",
+      "PackagePath": "staticwebassets/images/user-images/SuperAdminAkyuz_540.jpg"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/images/user-images/SuperAdminAkyuz_719.jpg",
+      "PackagePath": "staticwebassets/images/user-images/SuperAdminAkyuz_719.jpg"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/images/user-images/SuperAdminAkyuz_8.jpg",
+      "PackagePath": "staticwebassets/images/user-images/SuperAdminAkyuz_8.jpg"
+    },
+    {
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/images/user-images/SuperAdminAkyuz_968.jpg",
+      "PackagePath": "staticwebassets/images/user-images/SuperAdminAkyuz_968.jpg"
     },
     {
       "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/images/user-images/default.jpg",
@@ -369,180 +413,8 @@
       "PackagePath": "staticwebassets/sneat/assets/css/demo.css"
     },
     {
-      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/avatars/1.png",
-      "PackagePath": "staticwebassets/sneat/assets/img/avatars/1.png"
-    },
-    {
-      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/avatars/5.png",
-      "PackagePath": "staticwebassets/sneat/assets/img/avatars/5.png"
-    },
-    {
-      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/avatars/6.png",
-      "PackagePath": "staticwebassets/sneat/assets/img/avatars/6.png"
-    },
-    {
-      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/avatars/7.png",
-      "PackagePath": "staticwebassets/sneat/assets/img/avatars/7.png"
-    },
-    {
-      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/backgrounds/18.jpg",
-      "PackagePath": "staticwebassets/sneat/assets/img/backgrounds/18.jpg"
-    },
-    {
-      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/elements/1.jpg",
-      "PackagePath": "staticwebassets/sneat/assets/img/elements/1.jpg"
-    },
-    {
-      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/elements/11.jpg",
-      "PackagePath": "staticwebassets/sneat/assets/img/elements/11.jpg"
-    },
-    {
-      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/elements/12.jpg",
-      "PackagePath": "staticwebassets/sneat/assets/img/elements/12.jpg"
-    },
-    {
-      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/elements/13.jpg",
-      "PackagePath": "staticwebassets/sneat/assets/img/elements/13.jpg"
-    },
-    {
-      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/elements/17.jpg",
-      "PackagePath": "staticwebassets/sneat/assets/img/elements/17.jpg"
-    },
-    {
-      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/elements/18.jpg",
-      "PackagePath": "staticwebassets/sneat/assets/img/elements/18.jpg"
-    },
-    {
-      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/elements/19.jpg",
-      "PackagePath": "staticwebassets/sneat/assets/img/elements/19.jpg"
-    },
-    {
-      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/elements/2.jpg",
-      "PackagePath": "staticwebassets/sneat/assets/img/elements/2.jpg"
-    },
-    {
-      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/elements/20.jpg",
-      "PackagePath": "staticwebassets/sneat/assets/img/elements/20.jpg"
-    },
-    {
-      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/elements/3.jpg",
-      "PackagePath": "staticwebassets/sneat/assets/img/elements/3.jpg"
-    },
-    {
-      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/elements/4.jpg",
-      "PackagePath": "staticwebassets/sneat/assets/img/elements/4.jpg"
-    },
-    {
-      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/elements/5.jpg",
-      "PackagePath": "staticwebassets/sneat/assets/img/elements/5.jpg"
-    },
-    {
-      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/elements/7.jpg",
-      "PackagePath": "staticwebassets/sneat/assets/img/elements/7.jpg"
-    },
-    {
-      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/favicon/favicon.ico",
-      "PackagePath": "staticwebassets/sneat/assets/img/favicon/favicon.ico"
-    },
-    {
-      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/icons/brands/asana.png",
-      "PackagePath": "staticwebassets/sneat/assets/img/icons/brands/asana.png"
-    },
-    {
-      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/icons/brands/behance.png",
-      "PackagePath": "staticwebassets/sneat/assets/img/icons/brands/behance.png"
-    },
-    {
-      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/icons/brands/dribbble.png",
-      "PackagePath": "staticwebassets/sneat/assets/img/icons/brands/dribbble.png"
-    },
-    {
-      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/icons/brands/facebook.png",
-      "PackagePath": "staticwebassets/sneat/assets/img/icons/brands/facebook.png"
-    },
-    {
-      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/icons/brands/github.png",
-      "PackagePath": "staticwebassets/sneat/assets/img/icons/brands/github.png"
-    },
-    {
-      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/icons/brands/google.png",
-      "PackagePath": "staticwebassets/sneat/assets/img/icons/brands/google.png"
-    },
-    {
-      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/icons/brands/instagram.png",
-      "PackagePath": "staticwebassets/sneat/assets/img/icons/brands/instagram.png"
-    },
-    {
-      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/icons/brands/mailchimp.png",
-      "PackagePath": "staticwebassets/sneat/assets/img/icons/brands/mailchimp.png"
-    },
-    {
-      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/icons/brands/slack.png",
-      "PackagePath": "staticwebassets/sneat/assets/img/icons/brands/slack.png"
-    },
-    {
-      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/icons/brands/twitter.png",
-      "PackagePath": "staticwebassets/sneat/assets/img/icons/brands/twitter.png"
-    },
-    {
-      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/icons/unicons/cc-primary.png",
-      "PackagePath": "staticwebassets/sneat/assets/img/icons/unicons/cc-primary.png"
-    },
-    {
-      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/icons/unicons/cc-success.png",
-      "PackagePath": "staticwebassets/sneat/assets/img/icons/unicons/cc-success.png"
-    },
-    {
-      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/icons/unicons/cc-warning.png",
-      "PackagePath": "staticwebassets/sneat/assets/img/icons/unicons/cc-warning.png"
-    },
-    {
-      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/icons/unicons/chart-success.png",
-      "PackagePath": "staticwebassets/sneat/assets/img/icons/unicons/chart-success.png"
-    },
-    {
-      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/icons/unicons/chart.png",
-      "PackagePath": "staticwebassets/sneat/assets/img/icons/unicons/chart.png"
-    },
-    {
-      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/icons/unicons/paypal.png",
-      "PackagePath": "staticwebassets/sneat/assets/img/icons/unicons/paypal.png"
-    },
-    {
-      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/icons/unicons/wallet-info.png",
-      "PackagePath": "staticwebassets/sneat/assets/img/icons/unicons/wallet-info.png"
-    },
-    {
-      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/icons/unicons/wallet.png",
-      "PackagePath": "staticwebassets/sneat/assets/img/icons/unicons/wallet.png"
-    },
-    {
-      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/illustrations/girl-doing-yoga-light.png",
-      "PackagePath": "staticwebassets/sneat/assets/img/illustrations/girl-doing-yoga-light.png"
-    },
-    {
-      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/illustrations/man-with-laptop-light.png",
-      "PackagePath": "staticwebassets/sneat/assets/img/illustrations/man-with-laptop-light.png"
-    },
-    {
-      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/illustrations/page-misc-error-light.png",
-      "PackagePath": "staticwebassets/sneat/assets/img/illustrations/page-misc-error-light.png"
-    },
-    {
-      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/layouts/layout-container-light.png",
-      "PackagePath": "staticwebassets/sneat/assets/img/layouts/layout-container-light.png"
-    },
-    {
-      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/layouts/layout-fluid-light.png",
-      "PackagePath": "staticwebassets/sneat/assets/img/layouts/layout-fluid-light.png"
-    },
-    {
-      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/layouts/layout-without-menu-light.png",
-      "PackagePath": "staticwebassets/sneat/assets/img/layouts/layout-without-menu-light.png"
-    },
-    {
-      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/layouts/layout-without-navbar-light.png",
-      "PackagePath": "staticwebassets/sneat/assets/img/layouts/layout-without-navbar-light.png"
+      "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/img/avatars/1.jpg",
+      "PackagePath": "staticwebassets/sneat/assets/img/avatars/1.jpg"
     },
     {
       "Id": "/Users/yusufakyuz/RiderProjects/BlogSite/Blog.Web/wwwroot/sneat/assets/js/config.js",

@@ -91,20 +91,19 @@
     app.UseAuthentication();    //--> Kimlik doğruşama işlemlerini kullan dedik artık
     app.UseAuthorization();     //yetkilendirme işlemi her zaman kimlik doğrulama işleminden sonra gelmelidir
     
-    app.UseEndpoints(endpoints =>
-    {
-        endpoints.MapControllerRoute(
-            name: "default",
-            pattern: "{controller=Home}/{action=Index}/{id?}");
-    });
-
-
     app.MapControllerRoute(
         name: "Admin",
         pattern: "Admin/{controller=Home}/{action=Index}/{id?}",
         defaults: new { area = "Admin" }
     );
 
+    app.MapControllerRoute(
+        name: "User",
+        pattern: "User/{controller=Comment}/{action=SendComment}/{id?}",
+        defaults: new { area = "User" }
+    );
+    
     app.MapDefaultControllerRoute();
 
+    
     app.Run();
